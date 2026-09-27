@@ -18,6 +18,7 @@ import shutil
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
 
 CLAX_URL = "https://dcdl-laxou.fr/cl/solutions.html"
 
