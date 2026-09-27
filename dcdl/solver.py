@@ -22,50 +22,33 @@ from selenium.webdriver.chrome.options import Options
 CLAX_URL = "https://dcdl-laxou.fr/cl/solutions.html"
 
 
-def create_driver():
-
+def _build_driver():
     options = Options()
 
     options.add_argument("--headless=new")
-
     options.add_argument("--no-sandbox")
-
     options.add_argument("--disable-dev-shm-usage")
-
     options.add_argument("--disable-gpu")
-
     options.add_argument("--window-size=1920,1080")
 
     chromium = (
-
         shutil.which("chromium")
-
         or shutil.which("chromium-browser")
-
         or shutil.which("google-chrome")
-
     )
 
     if chromium:
-
         options.binary_location = chromium
 
     driver_path = shutil.which("chromedriver")
 
     if driver_path:
-
-        from selenium.webdriver.chrome.service import Service
-
         return webdriver.Chrome(
-
             service=Service(driver_path),
-
             options=options,
-
         )
 
     return webdriver.Chrome(options=options)
-
 
 def _draw_to_clax_line(draw: Draw) -> str:
     if draw.kind == DrawType.NUMBERS:
