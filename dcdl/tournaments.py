@@ -1,14 +1,9 @@
 import re
-import shutil
+import unicodedata
 from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
-
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
-from selenium.common.exceptions import WebDriverException, TimeoutException
 
 from .parser import parse_manual
 
@@ -19,181 +14,144 @@ HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/154 Safari/537.36"
+        "Chrome/154.0 Safari/537.36"
     )
 }
 
 
 # ============================================================
-# NAVIGATEUR SELENIUM
+# OUTILS
 # ============================================================
 
-def _build_driver():
+def _slugify(text: str) -> str:
     """
-    Construit un navigateur Chrome/Chromium compatible
-    avec le Mac local et Streamlit Cloud.
+    Transforme un nom de ville en slug Overblog.
+
+    Exemples :
+        Le Touquet -> le-touquet
+        La Roche-sur-Yon -> la-roche-sur-yon
+        Saint-Étienne -> saint-etienne
     """
-    options = Options()
+    text = text.strip().lower()
 
-    options.add_argument("--headless=new")
-    options.add_argument("--no-sandbox")
-    options.add_argument("--disable-dev-shm-usage")
-    options.add_argument("--disable-gpu")
-    options.add_argument("--window-size=1920,1080")
-
-    chromium = (
-        shutil.which("chromium")
-        or shutil.which("chromium-browser")
-        or shutil.which("google-chrome")
+    text = unicodedata.normalize("NFKD", text)
+    text = "".join(
+        c for c in text
+        if not unicodedata.combining(c)
     )
 
-    if chromium:
-        options.binary_location = chromium
+    text = re.sub(r"[^a-z0-9]+", "-", text)
 
-    driver_path = shutil.which("chromedriver")
-
-    if driver_path:
-        return webdriver.Chrome(
-            service=Service(driver_path),
-            options=options,
-        )
-
-    # En local, Selenium Manager trouvera Chrome
-    # et téléchargera/utilisera le driver adapté.
-    return webdriver.Chrome(options=options)
+    return text.strip("-")
 
 
-def _get_html_with_selenium(url: str) -> str:
+def _session():
     """
-    Récupère une page HTML avec un vrai navigateur.
-    Utilisé en fallback si requests n'arrive pas à
-    joindre Overblog.
+    Session HTTP commune.
     """
-    driver = _build_driver()
+    session = requests.Session()
+    session.headers.update(HEADERS)
 
-    try:
-        driver.set_page_load_timeout(30)
-        driver.get(url)
-        return driver.page_source
-
-    finally:
-        driver.quit()
+    return session
 
 
 # ============================================================
-# RÉCUPÉRATION HTTP
+# CONSTRUCTION DIRECTE DE L'URL
 # ============================================================
 
-def _get_html(url: str, timeout=10) -> str:
+def build_tournament_url(
+    city: str,
+    year: str,
+    month: int,
+) -> str:
     """
-    Essaie d'abord requests, beaucoup plus rapide.
+    Construit directement l'URL probable de l'article.
 
-    Si la connexion à Overblog échoue, utilise Chromium
-    comme solution de secours.
+    Exemple :
+        city  = "Vannes"
+        year  = "2026"
+        month = 3
+
+    ->
+        https://clubdcdl.over-blog.com/2026/03/vannes-2026.html
     """
+
+    slug = _slugify(city)
+
+    return urljoin(
+        BASE,
+        f"{year}/{int(month):02d}/{slug}-{year}.html",
+    )
+
+
+# ============================================================
+# RÉCUPÉRATION D'UNE PAGE
+# ============================================================
+
+def _get_page(url: str) -> requests.Response:
+    """
+    Télécharge une page avec un timeout raisonnable.
+    Pas de Selenium, pas de boucle.
+    """
+
+    session = _session()
+
     try:
-        response = requests.get(
+        response = session.get(
             url,
-            headers=HEADERS,
-            timeout=timeout,
+            timeout=(8, 20),
         )
 
         response.raise_for_status()
 
-        return response.text
+        return response
 
-    except requests.exceptions.RequestException:
-        return _get_html_with_selenium(url)
+    except requests.exceptions.ConnectTimeout as exc:
+        raise RuntimeError(
+            "Club DCDL ne répond pas depuis le serveur. "
+            "Réessaie dans quelques instants."
+        ) from exc
 
+    except requests.exceptions.Timeout as exc:
+        raise RuntimeError(
+            "Club DCDL met trop de temps à répondre."
+        ) from exc
 
-def _page_exists(url: str) -> bool:
-    """
-    Vérifie qu'une URL correspond réellement à un article
-    et non à une page 404 Overblog.
-    """
-    try:
-        html = _get_html(url, timeout=5)
+    except requests.exceptions.HTTPError as exc:
+        raise RuntimeError(
+            f"L'article Club DCDL est introuvable : {url}"
+        ) from exc
 
-    except Exception:
-        return False
-
-    text = html.lower()
-
-    if "erreur 404" in text:
-        return False
-
-    if "page introuvable" in text:
-        return False
-
-    if "404 not found" in text:
-        return False
-
-    return True
+    except requests.exceptions.RequestException as exc:
+        raise RuntimeError(
+            f"Impossible d'accéder à Club DCDL : {exc}"
+        ) from exc
 
 
 # ============================================================
-# RECHERCHE AUTOMATIQUE DU TOURNOI
-# ============================================================
-
-def find_tournament_url(city: str, year: str) -> str:
-    """
-    Recherche l'article du tournoi dans les archives Overblog.
-
-    Exemple :
-        le-touquet + 2026
-
-    teste :
-        /2026/01/le-touquet-2026.html
-        ...
-        /2026/12/le-touquet-2026.html
-        /2027/01/le-touquet-2026.html
-        ...
-    """
-    slug = city.strip().lower()
-
-    tournament_slug = f"{slug}-{year}"
-
-    for page_year in (
-        int(year),
-        int(year) + 1,
-    ):
-
-        for month in range(1, 13):
-
-            url = urljoin(
-                BASE,
-                (
-                    f"{page_year}/"
-                    f"{month:02d}/"
-                    f"{tournament_slug}.html"
-                ),
-            )
-
-            if _page_exists(url):
-                return url
-
-    raise ValueError(
-        "Tournoi introuvable. "
-        "Renseigne l’URL de l’article pour éviter "
-        "la recherche automatique."
-    )
-
-
-# ============================================================
-# TÉLÉCHARGEMENT DES FICHIERS TXT
+# TÉLÉCHARGEMENT TXT
 # ============================================================
 
 def _download_txt(url: str) -> str:
     """
-    Télécharge un fichier texte lié depuis l'article.
+    Télécharge un fichier de tirages .txt.
     """
-    response = requests.get(
-        url,
-        headers=HEADERS,
-        timeout=20,
-    )
 
-    response.raise_for_status()
+    session = _session()
+
+    try:
+        response = session.get(
+            url,
+            timeout=(8, 20),
+        )
+
+        response.raise_for_status()
+
+    except requests.exceptions.RequestException as exc:
+        raise RuntimeError(
+            "Impossible de télécharger le fichier de tirages : "
+            f"{url}"
+        ) from exc
 
     response.encoding = (
         response.apparent_encoding
@@ -204,46 +162,77 @@ def _download_txt(url: str) -> str:
 
 
 # ============================================================
-# RÉCUPÉRATION D'UN TOURNOI
+# TOURNOI
 # ============================================================
 
 def fetch_tournament(
     city: str,
     year: str,
     url: str = "",
+    month: int | None = None,
 ):
     """
-    Récupère tous les fichiers .txt présents dans
-    l'article du tournoi puis les transforme en tirages.
+    Récupère les tirages d'un tournoi.
+
+    Deux possibilités :
+
+    1. URL fournie :
+       -> on l'utilise directement.
+
+    2. Pas d'URL :
+       -> city + year + month permettent de construire
+          directement l'URL Overblog.
+
+    Il n'y a plus aucune recherche mois par mois.
     """
 
     # --------------------------------------------------------
-    # URL
+    # DÉTERMINATION DE L'URL
     # --------------------------------------------------------
 
-    page = (
-        url.strip()
-        or find_tournament_url(city, year)
-    )
+    if url.strip():
 
-    if not page.startswith("http"):
-        page = urljoin(BASE, page)
+        page = url.strip()
 
-    # --------------------------------------------------------
-    # ARTICLE OVERBLOG
-    # --------------------------------------------------------
+        if not page.startswith("http"):
+            page = urljoin(BASE, page)
 
-    try:
-        html = _get_html(
-            page,
-            timeout=10,
+    else:
+
+        if month is None:
+            raise ValueError(
+                "Indique le mois du tournoi ou colle directement "
+                "l'URL de l'article Club DCDL."
+            )
+
+        page = build_tournament_url(
+            city,
+            year,
+            month,
         )
 
-    except Exception as exc:
-        raise RuntimeError(
-            "Impossible d'accéder à l'article Club DCDL "
-            "avec HTTP ou Chromium."
-        ) from exc
+    # --------------------------------------------------------
+    # ARTICLE
+    # --------------------------------------------------------
+
+    response = _get_page(page)
+
+    html = response.text
+
+    # Certaines pages Overblog peuvent renvoyer une page
+    # d'erreur avec un statut HTTP 200.
+    lower_html = html.lower()
+
+    if (
+        "erreur 404" in lower_html
+        or "page introuvable" in lower_html
+    ):
+        raise ValueError(
+            "L'article n'existe pas à cette adresse : "
+            f"{page}\n\n"
+            "Tu peux corriger le mois ou coller directement "
+            "l'URL de l'article."
+        )
 
     soup = BeautifulSoup(
         html,
@@ -251,7 +240,7 @@ def fetch_tournament(
     )
 
     # --------------------------------------------------------
-    # LIENS TXT
+    # RECHERCHE DES TXT
     # --------------------------------------------------------
 
     links = []
@@ -260,6 +249,7 @@ def fetch_tournament(
         "a",
         href=True,
     ):
+
         href = urljoin(
             page,
             a["href"],
@@ -268,40 +258,30 @@ def fetch_tournament(
         if re.search(
             r"\.txt(?:\?|$)",
             href,
-            re.I,
+            re.IGNORECASE,
         ):
             links.append(href)
 
-    # Suppression des doublons
-    # en conservant l'ordre.
+    # Suppression des doublons en conservant l'ordre.
     links = list(
         dict.fromkeys(links)
     )
 
     if not links:
         raise ValueError(
-            "Aucun fichier .txt trouvé "
-            "dans l’article du tournoi."
+            "L'article a bien été trouvé mais aucun fichier "
+            ".txt de tirages n'y est présent."
         )
 
     # --------------------------------------------------------
-    # TÉLÉCHARGEMENT DES TIRAGES
+    # TÉLÉCHARGEMENT
     # --------------------------------------------------------
 
     chunks = []
 
     for link in links:
 
-        try:
-            text = _download_txt(link)
-
-        except requests.exceptions.RequestException as exc:
-            raise RuntimeError(
-                "L'article du tournoi a été trouvé, "
-                "mais un fichier de tirages .txt "
-                "n'a pas pu être téléchargé : "
-                f"{link}"
-            ) from exc
+        text = _download_txt(link)
 
         chunks.append(text)
 
@@ -312,5 +292,11 @@ def fetch_tournament(
     draws = parse_manual(
         "\n".join(chunks)
     )
+
+    if not draws:
+        raise ValueError(
+            "Les fichiers .txt ont été téléchargés mais aucun "
+            "tirage n'a pu être reconnu."
+        )
 
     return draws, page

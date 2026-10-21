@@ -253,16 +253,36 @@ if source == "✍️ Manuel":
 
 elif source == "🏆 Tournoi":
 
-    c1, c2 = st.columns(2)
+    c1, c2, c3 = st.columns(3)
 
     city = c1.text_input(
-        "Ville (slug)",
-        "la-roche-sur-yon",
+        "Ville",
+        "le-touquet",
     )
 
     year = c2.text_input(
         "Année",
         "2026",
+    )
+
+    month = c3.selectbox(
+        "Mois",
+        range(1, 13),
+        index=0,
+        format_func=lambda m: [
+            "Janvier",
+            "Février",
+            "Mars",
+            "Avril",
+            "Mai",
+            "Juin",
+            "Juillet",
+            "Août",
+            "Septembre",
+            "Octobre",
+            "Novembre",
+            "Décembre",
+        ][m - 1],
     )
 
     url = st.text_input(
@@ -286,6 +306,7 @@ elif source == "🏆 Tournoi":
                         city,
                         year,
                         url,
+                        month,
                     )
                 )
 
