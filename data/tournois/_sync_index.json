@@ -1,0 +1,1592 @@
+{
+  "articles": {
+    "https://clubdcdl.over-blog.com/2025/01/annonce-des-tournois-de-peronnas-2025.html": {
+      "type": "no_txt",
+      "title": "Annonce des tournois de Péronnas 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/01/annonce-du-tournoi-de-villemomble-challenge-michel-jouaux.html": {
+      "type": "no_txt",
+      "title": "Annonce du tournoi de Villemomble - Challenge Michel Jouaux",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/01/dour-2025.html": {
+      "type": "tournament",
+      "title": "Dour 2025 : Arnaud a bien fait de venir.",
+      "year": 2025,
+      "file": "data/tournois/2025/dour.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250120/ob_8bf346_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250120/ob_1256ef_huitiemes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250120/ob_3508c4_quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250120/ob_6f91e2_demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250120/ob_303836_finales.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/01/elisez-les-plus-beaux-solos-de-l-annee-2024-la-finale.html": {
+      "type": "no_txt",
+      "title": "Olivier Suys et Philippe Merrheim élus solistes de l'année 2024",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/01/invitation-au-tournoi-d-epernay-2025.html": {
+      "type": "no_txt",
+      "title": "Invitation au tournoi d'Epernay 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/01/invitation-au-tournoi-de-toulouse.html": {
+      "type": "no_txt",
+      "title": "Invitation au tournoi de Toulouse",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/01/invitation-au-tournoi-de-vertou-2025.html": {
+      "type": "no_txt",
+      "title": "Invitation au tournoi de Vertou 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/01/le-point-sur-les-maillots-reglement-2025.html": {
+      "type": "no_txt",
+      "title": "Le point sur les maillots - Règlement 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/01/le-tournoi-de-royan-decale-au-15-juin-2025.html": {
+      "type": "no_txt",
+      "title": "Le tournoi de Royan décalé au 15 juin 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/01/les-nouveaux-logiciels-sont-disponibles.html": {
+      "type": "no_txt",
+      "title": "Les logiciels DCDL sont mis à jour pour 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/01/masters-ara-2024.html": {
+      "type": "tournament",
+      "title": "Masters ARA 2024 : Jean-Marc ça déménage !",
+      "year": 2025,
+      "file": "data/tournois/2025/masters-ara.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250112/ob_bb876d_match1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250112/ob_bfdb34_match2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250112/ob_b30674_match3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250112/ob_da99a9_match4.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250112/ob_ce9819_match5.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250112/ob_1e1b5c_match6.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250112/ob_708f5a_match7.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250112/ob_0deec7_match8.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250112/ob_29a01c_match9.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250112/ob_170283_match10.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250112/ob_5d0b94_match11.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250112/ob_b081dc_match12.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250112/ob_d3691c_match13.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250112/ob_c2129c_match14.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250112/ob_e25c88_match15.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/01/masters-idf-2024.html": {
+      "type": "tournament",
+      "title": "Masters IDF 2024 : Olivier reprend son bien",
+      "year": 2025,
+      "file": "data/tournois/2025/masters-idf.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250105/ob_b2b994_match-n-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250105/ob_96a8fb_match-n-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250105/ob_6580ca_match-n-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250105/ob_0ae573_match-n-4.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250105/ob_c7a7ae_match-n-5.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250105/ob_7427a0_match-n-6.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250105/ob_da9e35_match-n-7.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250105/ob_bd369b_match-n-8.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250105/ob_b91ecf_match-n-9.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250105/ob_d99d4d_match-n-10.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250105/ob_f48e0d_match-n-11.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250105/ob_d84960_match-n-12.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250105/ob_b42561_match-n-13.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250105/ob_009844_match-n-14.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250105/ob_044487_match-n-15.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/01/masters-paca-2024.html": {
+      "type": "tournament",
+      "title": "Masters PACA 2024 : Denis prend son ticket pour Royan",
+      "year": 2025,
+      "file": "data/tournois/2025/masters-paca.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250127/ob_6a093f_match-n-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250127/ob_23275e_match-n-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250127/ob_efaa1f_match-n-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250127/ob_c2bbff_match-n-4.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250127/ob_155d09_match-n-5.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250127/ob_44588d_match-n-6.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250127/ob_f2672c_match-n-7.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250127/ob_5f3856_match-n-8.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250127/ob_8254a2_match-n-9.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250127/ob_3ae25b_match-n-10.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250127/ob_df79b8_match-n-11.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250127/ob_4fab2d_match-n-12.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250127/ob_a74377_match-n-13.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250127/ob_ab2a1e_match-n-14.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250127/ob_849fbc_match-n-15.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/01/mazurka-2025.html": {
+      "type": "tournament",
+      "title": "Mazurka 2025 - Olivier s’impose sans surprise",
+      "year": 2025,
+      "file": "data/tournois/2025/mazurka.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250201/ob_c1a4f8_match-n-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250201/ob_3091b6_match-n-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250201/ob_b11945_match-n-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250201/ob_9bc6c6_match-n-4.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250201/ob_d87d0d_match-n-5.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250201/ob_bc19af_quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250201/ob_fb37fe_demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250201/ob_68609b_finales.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/01/rene-dubreucq-nous-a-quittes.html": {
+      "type": "no_txt",
+      "title": "René Dubreucq nous a quittés",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/02/annonce-du-14eme-tournoi-en-double-de-chimay.html": {
+      "type": "no_txt",
+      "title": "Annonce du 14ème tournoi en double de Chimay",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/02/annonce-du-tournoi-de-saint-martin-lez-tatinghem-2025.html": {
+      "type": "no_txt",
+      "title": "Annonce du tournoi de Saint-Martin-lez-Tatinghem 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/02/annonce-du-tournoi-de-vannes-2025.html": {
+      "type": "no_txt",
+      "title": "Annonce du tournoi de Vannes 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/02/eysines-2025.html": {
+      "type": "tournament",
+      "title": "Eysines 2025 :  Dany repart de l'avant.",
+      "year": 2025,
+      "file": "data/tournois/2025/eysines.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250217/ob_5372fc_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250217/ob_6fe869_huitiemes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250217/ob_80b00d_quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250217/ob_9bb8e3_demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250217/ob_0536e1_finales.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/02/fontenay-2025-arnaud-a-bon-compte.html": {
+      "type": "tournament",
+      "title": "Fontenay 2025 : Arnaud à bon compte",
+      "year": 2025,
+      "file": "data/tournois/2025/fontenay-2025-arnaud-a-bon-compte.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250210/ob_7f6488_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250210/ob_9c1c4a_match-n-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250210/ob_83d1a1_match-n-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250210/ob_c0c2c6_match-n-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250210/ob_8c978f_demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250224/ob_c74053_finales.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/02/invitation-au-40e-tournoi-de-dijon.html": {
+      "type": "no_txt",
+      "title": "Invitation au 40e tournoi de Dijon",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/02/invitation-au-tournoi-de-paray-vieille-poste-2025.html": {
+      "type": "no_txt",
+      "title": "Invitation au tournoi de Paray-Vieille-Poste 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/02/invitation-du-tournoi-de-drocourt-2025.html": {
+      "type": "no_txt",
+      "title": "Invitation du tournoi de Drocourt 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/02/invitation-du-tournoi-de-gleize-2025.html": {
+      "type": "no_txt",
+      "title": "Invitation du tournoi de Gleizé 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/02/invitation-tournoi-du-havre-2025.html": {
+      "type": "no_txt",
+      "title": "Invitation tournoi du Havre 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/02/la-ciotat-2025.html": {
+      "type": "tournament",
+      "title": "La Ciotat 2025 : En bord de mer, Denis en vedette",
+      "year": 2025,
+      "file": "data/tournois/2025/la-ciotat.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250227/ob_81073a_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250227/ob_bc5a8b_huitiemes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250227/ob_8f0413_quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250227/ob_ddb376_demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250227/ob_a971f1_finales.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/02/luce-2025.html": {
+      "type": "tournament",
+      "title": "Lucé 2025 : Olivier comme d'habitude",
+      "year": 2025,
+      "file": "data/tournois/2025/luce.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250223/ob_8b32f5_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250223/ob_959562_huitiemes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250223/ob_83a8ea_quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250224/ob_6a8f3a_demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250223/ob_58b5c2_finales.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/02/michel-chirio-nous-a-quittes.html": {
+      "type": "no_txt",
+      "title": "Michel Chirio nous a quittés",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/02/peronnas-2025.html": {
+      "type": "tournament",
+      "title": "Péronnas 2025 : Manu chef d'orchestre",
+      "year": 2025,
+      "file": "data/tournois/2025/peronnas.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250225/ob_7b80d7_tirages-dupli-peronnas-2025.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250225/ob_0dcb8a_tirages-huitieme-de-finale-peronnas-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250225/ob_a20264_tirages-quart-de-finale-peronnas-2025.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250225/ob_9754b9_tirages-demi-finale-peronnas-2025.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250225/ob_a266b4_tirages-finale-peronnas-2025.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/02/peronnas-decathlon-2025.html": {
+      "type": "no_txt",
+      "title": "Péronnas-Décathlon 2025 : Manu a bien fait ses devoirs",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/02/resultat-du-8eme-duplicate-de-fin-d-annee-2024.html": {
+      "type": "no_txt",
+      "title": "Résultats du 8ème duplicate de fin d'année 2024",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/02/vertou-2025.html": {
+      "type": "tournament",
+      "title": "Vertou 2025 : Un podium venu de loin !",
+      "year": 2025,
+      "file": "data/tournois/2025/vertou.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250225/ob_e16f31_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250224/ob_145e21_match-n-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250224/ob_73eb18_match-n-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250224/ob_74ff72_match-n-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250224/ob_a4dcbe_match-n-4.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250224/ob_5c6f19_match-n-5.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250224/ob_f2eb6e_match-n-6.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250224/ob_283c42_match-n-7.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/03/annonce-des-tournois-de-pau-2025.html": {
+      "type": "no_txt",
+      "title": "Annonce des tournois de Pau 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/03/annonce-du-tournoi-de-calais-2025.html": {
+      "type": "no_txt",
+      "title": "Annonce du tournoi de Calais 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/03/annonce-du-tournoi-de-verrines-sous-celles-2025.html": {
+      "type": "no_txt",
+      "title": "Annonce du tournoi de Verrines-sous-Celles 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/03/challenge-michel-jouaux-2025.html": {
+      "type": "tournament",
+      "title": "Challenge Michel Jouaux 2025 : Olivier a relevé le challenge",
+      "year": 2025,
+      "file": "data/tournois/2025/challenge-michel-jouaux.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250319/ob_7a003a_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250318/ob_ebac10_match-n-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250317/ob_1a8953_match-n-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250317/ob_041b9c_match-n-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250317/ob_6dc99e_demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250317/ob_7da71e_finales.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/03/double-chimay.html": {
+      "type": "tournament",
+      "title": "Double Chimay",
+      "year": 2025,
+      "file": "data/tournois/2025/double-chimay.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250323/ob_47d01c_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250323/ob_e2b1b2_match-n-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250323/ob_7c71bf_match-n-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250323/ob_c3396e_match-n-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250323/ob_14cd28_match-n-4.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250323/ob_81c800_match-n-5.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250323/ob_44ba4c_match-n-6.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250323/ob_c3a75b_match-n-7.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250323/ob_24d569_finale.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/03/drocourt-2025.html": {
+      "type": "tournament",
+      "title": "Drocourt 2025 : Le Centenaire ouvre son compteur 2025",
+      "year": 2025,
+      "file": "data/tournois/2025/drocourt.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250403/ob_ae6e9c_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250401/ob_68f97c_huitiemes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250401/ob_46a089_quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250401/ob_7ed2a7_demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250401/ob_7886cb_finales.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/03/epernay-2025.html": {
+      "type": "tournament",
+      "title": "Epernay 2025 : Champagne pour Emmanuel !",
+      "year": 2025,
+      "file": "data/tournois/2025/epernay.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250310/ob_6ece77_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250309/ob_d040de_huitiemes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250309/ob_b91171_quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250309/ob_630358_demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250309/ob_8e1daa_finales.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/03/gleize-2025.html": {
+      "type": "tournament",
+      "title": "Gleizé 2025 : Emmanuel reprend son bien",
+      "year": 2025,
+      "file": "data/tournois/2025/gleize.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250302/ob_8a558b_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250302/ob_221edc_huitie-mes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250302/ob_da89c9_quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250303/ob_03a5d4_demi-finale.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250302/ob_82b3b1_finale.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/03/paray-vieille-poste-2025.html": {
+      "type": "tournament",
+      "title": "Paray-Vieille-Poste 2025 : Olivier y a mis la manière",
+      "year": 2025,
+      "file": "data/tournois/2025/paray-vieille-poste.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250323/ob_6025f2_huitiemes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250323/ob_b7f6f9_quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250323/ob_7f47c1_demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250323/ob_9f3cd5_finales.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/03/vannes-2025.html": {
+      "type": "tournament",
+      "title": "Vannes 2025 : Le dernier sera le premier",
+      "year": 2025,
+      "file": "data/tournois/2025/vannes.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250310/ob_e7e81f_duplicate-vannes-2025.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250310/ob_9ce4f8_duplicate-match-n-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250310/ob_928563_duplicate-match-n-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250310/ob_e04eff_duplicate-match-n-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250310/ob_ab6c92_duplicate-match-n-4.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250310/ob_c00317_duplicate-match-n-5.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250310/ob_e88ace_duplicate-match-n-6.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250310/ob_715cc6_duplicate-match-n-7.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/04/annonce-du-tournoi-de-durtol-2025.html": {
+      "type": "no_txt",
+      "title": "Annonce du tournoi de Durtol 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/04/annonce-du-tournoi-de-l-as-de-trefle-2025.html": {
+      "type": "no_txt",
+      "title": "Annonce du tournoi de l'As de Trèfle 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/04/annonce-du-tournoi-de-tarare2025.html": {
+      "type": "no_txt",
+      "title": "Annonce du tournoi de Tarare2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/04/cholet-2025.html": {
+      "type": "tournament",
+      "title": "Cholet 2025 : La victoire pour Arnaud dans un mouchoir.",
+      "year": 2025,
+      "file": "data/tournois/2025/cholet.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250427/ob_3469f5_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250427/ob_6e22ec_match-n-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250427/ob_5ce865_match-n-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250427/ob_034427_match-n-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250427/ob_8b5f0d_match-n-4.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250427/ob_32d474_match-n-5.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250428/ob_2bad47_match-n-6.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250428/ob_44b37d_match-n-7.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/04/dijon-2025.html": {
+      "type": "tournament",
+      "title": "Dijon 2025 : Pour le 40e Le (Bi)Centenaire rugit encore.",
+      "year": 2025,
+      "file": "data/tournois/2025/dijon.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250407/ob_23e775_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250407/ob_10f913_huitiemes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250407/ob_650342_quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250407/ob_832fe8_demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250407/ob_325c48_finales.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/04/elisez-les-plus-beaux-solos-du-1er-trimestre-2025.html": {
+      "type": "no_txt",
+      "title": "Élisez les plus beaux solos du 1er trimestre 2025 : les résultats",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/04/invitation-au-tournoi-de-cholet-2025.html": {
+      "type": "no_txt",
+      "title": "Invitation au tournoi de Cholet 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/04/invitation-au-tournoi-de-fougeres-2025.html": {
+      "type": "no_txt",
+      "title": "Invitation au tournoi de Fougères 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/04/invitation-au-tournoi-federal-belge.html": {
+      "type": "no_txt",
+      "title": "Invitation au Tournoi Fédéral belge",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/04/le-havre-2025-thierry-repart-de-l-avant.html": {
+      "type": "tournament",
+      "title": "Le Havre 2025 : Thierry repart de l'avant",
+      "year": 2025,
+      "file": "data/tournois/2025/le-havre-2025-thierry-repart-de-l-avant.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250413/ob_a61370_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250414/ob_81990d_huitiemes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250413/ob_2cb0d4_quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250413/ob_30daff_demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250413/ob_1d8559_finales.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/04/luc-michel-nous-a-quittes.html": {
+      "type": "no_txt",
+      "title": "Luc Michel nous a quittés",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/04/marseille-2025.html": {
+      "type": "tournament",
+      "title": "Marseille 2025 : Florian a bon port",
+      "year": 2025,
+      "file": "data/tournois/2025/marseille.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250403/ob_6444fc_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250403/ob_b127e4_huitiemes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250403/ob_42425a_quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250403/ob_7de850_demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250403/ob_e38b1a_finales.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/04/st-hilaire-de-riez-2025.html": {
+      "type": "tournament",
+      "title": "St-Hilaire-de-Riez 2025 : Pierre devance Bruno au meilleur duplicate",
+      "year": 2025,
+      "file": "data/tournois/2025/st-hilaire-de-riez.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250413/ob_6cb54f_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250413/ob_d001d2_match-n-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250413/ob_7513ec_match-n-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250413/ob_eb0982_match-n-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250413/ob_49d05a_match-n-4.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250413/ob_fa30b2_match-n-5.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250413/ob_9d803f_match-n-6.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250413/ob_e51c79_match-n-7.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/04/st-martin-lez-tatinghem-2025.html": {
+      "type": "tournament",
+      "title": "St-Martin-lez-Tatinghem 2025 : Ludo au bout des prolongations",
+      "year": 2025,
+      "file": "data/tournois/2025/st-martin-lez-tatinghem.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250407/ob_5e3602_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250407/ob_957b9e_huitiemes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250407/ob_ea3ff2_quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250408/ob_a5dfbd_demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250408/ob_4f9530_finales.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/05/6823399f-59d8.html": {
+      "type": "no_txt",
+      "title": "Annonce du tournoi de Royan 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/05/annonce-des-24-heures-de-la-francophonie-2025.html": {
+      "type": "no_txt",
+      "title": "Annonce des 24 heures de la Francophonie 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/05/annonce-du-tournoi-d-ambert-2025.html": {
+      "type": "no_txt",
+      "title": "Annonce du tournoi d'Ambert 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/05/annonce-du-tournoi-de-l-as-de-trefle-2025.html": {
+      "type": "no_txt",
+      "title": "Annonce du triathlon villeneuvois 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/05/annonce-du-tournoi-de-laxou-2025.html": {
+      "type": "no_txt",
+      "title": "Annonce du tournoi de Laxou 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/05/annonce-du-tournoi-de-saint-lo-2025.html": {
+      "type": "no_txt",
+      "title": "Annonce du Tournoi de Saint-Lô 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/05/calais-2025.html": {
+      "type": "tournament",
+      "title": "Calais 2025 : Thierry met fin au beau parcours de Jimmy.",
+      "year": 2025,
+      "file": "data/tournois/2025/calais.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250505/ob_e9419e_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250505/ob_b9e187_huitiemes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250505/ob_2558f8_quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250505/ob_8ecd95_demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250505/ob_088f06_finales.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/05/durtol-2025.html": {
+      "type": "tournament",
+      "title": "Durtol 2025 : 10 ans et un quatre à la suite pour Manu !",
+      "year": 2025,
+      "file": "data/tournois/2025/durtol.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250518/ob_e00649_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250518/ob_631a65_huitie-mes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250518/ob_14686f_quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250518/ob_d144f7_demi-finale.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250518/ob_b2aab1_finale.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/05/fougeres-2025-live.html": {
+      "type": "tournament",
+      "title": "Fougères 2025 : Ahmed crée la surprise.",
+      "year": 2025,
+      "file": "data/tournois/2025/fougeres-2025-live.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250518/ob_99cc85_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250518/ob_198a91_huitiemes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250518/ob_9f5ffe_quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250518/ob_7a5267_demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250518/ob_50b989_finale.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/05/marie-jo-beyaert-nous-a-quittes.html": {
+      "type": "no_txt",
+      "title": "Marie-Jo Beyaert nous a quittés",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/05/pau-2025.html": {
+      "type": "tournament",
+      "title": "Pau 2025 : Week-end plein Pau pour Arnaud",
+      "year": 2025,
+      "file": "data/tournois/2025/pau.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250505/ob_6cb0d4_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250505/ob_42dc7b_match-n-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250505/ob_98ca83_match-n-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250505/ob_eb7aba_match-n-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250505/ob_8e597c_match-n-4.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250505/ob_95141e_match-n-5.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250505/ob_db8985_match-n-6.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250505/ob_e0dee8_match-n-7.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/05/pau-duplicate-2025.html": {
+      "type": "tournament",
+      "title": "Pau-Duplicate 2025 : Un point c'est tout !",
+      "year": 2025,
+      "file": "data/tournois/2025/pau-duplicate.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250505/ob_5ab1d8_serie-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250505/ob_f11f22_serie-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250505/ob_e52784_serie-3.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/05/saint-priest-en-jarez-2025.html": {
+      "type": "tournament",
+      "title": "Saint-Priest-en-Jarez 2025 : le plus complet c'est Manu",
+      "year": 2025,
+      "file": "data/tournois/2025/saint-priest-en-jarez.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250511/ob_40c31c_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250511/ob_a71f6a_huitie-mes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250511/ob_18cb51_quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250511/ob_341627_demi-finale.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250511/ob_7b5044_finale.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/05/saint-priest-en-jarez-decathlon-2025.html": {
+      "type": "tournament",
+      "title": "Saint-Priest-en-Jarez-Décathlon 2025 : qui c'est les plus forts évidemment...",
+      "year": 2025,
+      "file": "data/tournois/2025/saint-priest-en-jarez-decathlon.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250510/ob_a4da21_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250510/ob_720361_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250510/ob_c5c158_demi-finale.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250510/ob_2168f8_finale.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/05/tarare-2025.html": {
+      "type": "tournament",
+      "title": "Tarare 2025 : Denis tient enfin sa revanche",
+      "year": 2025,
+      "file": "data/tournois/2025/tarare.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250501/ob_e89821_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250501/ob_00d0ad_huitiemes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250501/ob_9b0d17_quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250501/ob_d7438d_demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250501/ob_d8fc68_finales.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/05/tournoi-de-la-federation-2025.html": {
+      "type": "tournament",
+      "title": "Tournoi de la Fédération 2025 : Le coach est en forme !",
+      "year": 2025,
+      "file": "data/tournois/2025/tournoi-de-la-federation.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250520/ob_b36be0_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250520/ob_7f8c57_match-n-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250520/ob_852902_match-n-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250520/ob_1e6e13_match-n-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250520/ob_2128b1_match-n-4.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250520/ob_9111af_match-n-5.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250520/ob_d43998_match-n-6.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250520/ob_904811_match-n-7.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250520/ob_48aac2_finales.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/05/verrines-dupli-2025.html": {
+      "type": "tournament",
+      "title": "Verrines-Dupli 2025 : Florian le plus endurant",
+      "year": 2025,
+      "file": "data/tournois/2025/verrines-dupli.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250520/ob_8e4e6d_serie-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250520/ob_bdefef_serie-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250520/ob_5daa16_serie-3.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/05/verrines-sous-celles-2025.html": {
+      "type": "tournament",
+      "title": "Verrines-sous-Celles 2025 : Laurent clôt le chapitre à l'Abbaye.",
+      "year": 2025,
+      "file": "data/tournois/2025/verrines-sous-celles.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250520/ob_e91d0b_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250520/ob_35856e_huitiemes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250520/ob_0a93fc_quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250520/ob_8662d9_demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250520/ob_9288b0_finales.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/06/ambert-2025.html": {
+      "type": "tournament",
+      "title": "Ambert 2025 : xérocopie mais un autre vainqueur",
+      "year": 2025,
+      "file": "data/tournois/2025/ambert.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250608/ob_e76dc4_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250608/ob_c02cfa_huitie-mes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250608/ob_a52369_quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250608/ob_3c6494_demi-finale.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250608/ob_3673a0_finale.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/06/annonce-du-tournoi-de-solre-saint-gery-2025.html": {
+      "type": "no_txt",
+      "title": "Annonce du tournoi de Solré-Saint-Géry 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/06/annonce-du-tournoi-de-tarbes.html": {
+      "type": "no_txt",
+      "title": "Annonce du tournoi de Tarbes",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/06/as-de-trefle-2025.html": {
+      "type": "tournament",
+      "title": "As de trèfle 2025 : un coach à toutes épreuves",
+      "year": 2025,
+      "file": "data/tournois/2025/as-de-trefle.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250601/ob_879ba6_tirages-duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250531/ob_eaae6d_tirages-huitiemes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250531/ob_e5dad3_tirages-quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250531/ob_6fc2a1_tirages-demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250531/ob_0af71e_tirages-finales.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/06/championnat-de-belgique-2025-pour-philippe-sept-extra.html": {
+      "type": "tournament",
+      "title": "Championnat de Belgique 2025 : Pour Philippe sept extra !",
+      "year": 2025,
+      "file": "data/tournois/2025/championnat-de-belgique-2025-pour-philippe-sept-extra.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250616/ob_7f04e5_match-n-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250616/ob_5c2f9f_match-n-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250616/ob_478f19_match-n-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250616/ob_65be73_match-n-4.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250616/ob_c24e2b_match-n-5.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250616/ob_f72376_match-n-6.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250616/ob_d559fb_match-n-7.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250616/ob_24a88a_match-n-8.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250616/ob_80eaaa_match-n-9.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250616/ob_a75dd6_match-n-10.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250616/ob_a59663_match-n-11.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/06/laxou-2025.html": {
+      "type": "tournament",
+      "title": "Laxou 2025 : Rien ne sert de courir, il faut toper à point.",
+      "year": 2025,
+      "file": "data/tournois/2025/laxou.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250602/ob_d14186_tirages-duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250602/ob_60fa57_tirages-huitiemes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250602/ob_b3aee1_tirages-quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250602/ob_5400f0_tirages-demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250602/ob_6e9f73_tirages-finales.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/06/royan-2025.html": {
+      "type": "tournament",
+      "title": "Royan 2025 : Christophe prend ses marques",
+      "year": 2025,
+      "file": "data/tournois/2025/royan.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250617/ob_b3dd6a_tirages-duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250617/ob_312c05_tirages-huitiemes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250617/ob_9f11c8_tirages-quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250617/ob_c6a55d_tirages-demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250617/ob_ae4154_tirages-finales.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/06/simon-estievenart-nous-a-quittes.html": {
+      "type": "no_txt",
+      "title": "Simon Estièvenart nous a quittés",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/06/st-lo-2025.html": {
+      "type": "tournament",
+      "title": "St Lô 2025: Christian débloque son compteur en Normandie",
+      "year": 2025,
+      "file": "data/tournois/2025/st-lo.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250629/ob_9c367f_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250701/ob_8af892_huitiemes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250701/ob_cec383_quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250701/ob_7da7b0_demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250701/ob_2b2da1_finales.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/06/supermasters-2025.html": {
+      "type": "tournament",
+      "title": "Supermasters 2025 : Olivier a dû batailler ferme cette fois",
+      "year": 2025,
+      "file": "data/tournois/2025/supermasters.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250623/ob_03a299_match-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250623/ob_e60e13_match-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250623/ob_d35df7_match-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250623/ob_ff813b_match-4.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250623/ob_f50fc9_match-5.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250623/ob_30123d_match-6.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250623/ob_5a5707_match-7.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250623/ob_6b1f14_match-8.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250623/ob_b980dd_match-9.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250623/ob_ac2a5f_match-10.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250623/ob_6fdc24_match-11.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250623/ob_3361ca_match-12.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250623/ob_5e3d41_match-13.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250623/ob_7ca458_match-14.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250623/ob_cb5592_match-15.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250623/ob_27be68_match-16.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250623/ob_23c59b_match-17.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250623/ob_07fa59_match-18.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250623/ob_c818e2_match-19.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250623/ob_d72266_match-20.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250623/ob_971662_match-21.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250623/ob_02f9bb_match-22.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250623/ob_0b2b4b_match-23.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250623/ob_9b015c_match-24.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250623/ob_1e3652_match-25.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/07/24h-francophonie-2025.html": {
+      "type": "tournament",
+      "title": "24H Francophonie 2025 : Haletant jusqu'au bout à tous les étages",
+      "year": 2025,
+      "file": "data/tournois/2025/24h-francophonie.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250707/ob_32c732_duplicate-collectif-n-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250707/ob_a3cf73_duplicate-individuel-n-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250707/ob_f9f397_duplicate-individuel-n-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250707/ob_2f0aa8_duplicate-collectif-n-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250707/ob_80a026_duplicate-individuel-n-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250707/ob_ae05b1_duplicate-individuel-n-4.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250707/ob_0f7cc9_duplicate-collectif-n-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250707/ob_1f0d56_duplicate-individuel-n-5.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250707/ob_203e88_match-n-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250707/ob_8dcc06_match-n-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250707/ob_4c4928_match-n-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250707/ob_905da8_match-n-4.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250707/ob_c67f12_match-n-5.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250707/ob_b2b5b8_match-n-6.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250707/ob_89a4f7_match-n-7.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250707/ob_b6077a_match-n-8.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250707/ob_bae5ed_match-n-9.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250707/ob_faaa8c_match-n-10.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250707/ob_af75b3_match-n-11.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250707/ob_899674_match-n-12.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250707/ob_304750_match-n-13.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250707/ob_48e743_match-n-14.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/07/annonce-du-tournoi-la-roche-sur-yon-2025.html": {
+      "type": "no_txt",
+      "title": "Annonce du tournoi La-Roche-sur-Yon 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/07/antibes-1-2025.html": {
+      "type": "tournament",
+      "title": "Antibes-1 2025 :",
+      "year": 2025,
+      "file": "data/tournois/2025/antibes-1.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250723/ob_fb2deb_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250723/ob_cf6fb2_match-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250723/ob_8147d7_match-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250723/ob_fbd7b7_match-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250723/ob_e89eea_match-4.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/07/elisez-les-plus-beaux-solos-du-1er-trimestre-2025.html": {
+      "type": "no_txt",
+      "title": "Élisez les plus beaux solos du 2e trimestre 2025 : les résultats",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/07/fontenay-ete-2025.html": {
+      "type": "tournament",
+      "title": "Fontenay-Eté 2025 : Olivier au bout du départage",
+      "year": 2025,
+      "file": "data/tournois/2025/fontenay-ete.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250720/ob_c24762_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250720/ob_5e2feb_match-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250720/ob_a0832e_match-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250720/ob_b9941f_match-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250720/ob_33adc1_match-4.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250720/ob_2a5220_match-5.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250720/ob_6eb3bf_match-6.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250720/ob_745ff8_match-7.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250720/ob_34d216_match-8.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250720/ob_9be928_match-9.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/07/invitation-au-tournoi-de-narbonne.html": {
+      "type": "no_txt",
+      "title": "Invitation au tournoi de Narbonne",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/07/mickael-guilcher-nous-a-quittes.html": {
+      "type": "no_txt",
+      "title": "Mickael Guilcher nous a quittés",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/08/solre-saint-gery.html": {
+      "type": "tournament",
+      "title": "Solré-Saint-Géry 2025: Un hat-trick pour le (bi)-Centenaire",
+      "year": 2025,
+      "file": "data/tournois/2025/solre-saint-gery.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250803/ob_e0e00b_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250803/ob_dbabba_match-n-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250803/ob_938bb8_match-n-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250803/ob_02b0b9_match-n-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250803/ob_38c17d_demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250803/ob_6e7987_finales.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/09/annonce-de-la-ceremonie-de-mariage-des-chiffres-et-des-lettres.html": {
+      "type": "no_txt",
+      "title": "Annonce de la Cérémonie de mariage des Chiffres et des Lettres",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/09/annonce-du-1er-tournoi-de-gardanne-aix-en-provence.html": {
+      "type": "no_txt",
+      "title": "Annonce du 1er Tournoi de Gardanne (Aix-en-Provence)",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/09/annonce-du-tournoi-d-automne-de-laxou.html": {
+      "type": "no_txt",
+      "title": "Annonce du tournoi d'automne de Laxou",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/09/annonce-du-tournoi-de-caen-2025.html": {
+      "type": "no_txt",
+      "title": "Annonce du tournoi de Caen 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/09/annonce-du-tournoi-de-douai-2025.html": {
+      "type": "no_txt",
+      "title": "Annonce du tournoi de Douai 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/09/annonce-du-tournoi-de-mamers-72.html": {
+      "type": "no_txt",
+      "title": "Annonce du Tournoi de Mamers (72)",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/09/chimay-2025.html": {
+      "type": "tournament",
+      "title": "Chimay 2025 : Le coach gratte un tournoi de plus !",
+      "year": 2025,
+      "file": "data/tournois/2025/chimay.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250929/ob_7bfb6b_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250929/ob_b05010_match-n-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250929/ob_c98c28_match-n-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250929/ob_12fde9_match-n-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250929/ob_b8c087_match-n-4.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250929/ob_fbe028_match-n-5.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250929/ob_525164_match-n-6.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250929/ob_7ccb2a_match-n-7.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250929/ob_213999_finale.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/09/coupe-de-belgique-2025.html": {
+      "type": "tournament",
+      "title": "Coupe de Belgique 2025 : Killian a fini par tomber sur un os (de trèfle).",
+      "year": 2025,
+      "file": "data/tournois/2025/coupe-de-belgique.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250918/ob_57329b_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250918/ob_0caaa7_match-n-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250918/ob_27839a_match-n-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250918/ob_d8569d_match-n-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250918/ob_ba2bab_match-n-4.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/09/creation-d-un-nouveau-club-dcdl-a-saint-gely-du-fesc-34.html": {
+      "type": "no_txt",
+      "title": "Création d'un nouveau club DCDL à Saint Gély du Fesc (34)",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/09/domerat-2025.html": {
+      "type": "tournament",
+      "title": "Domérat 2025 : Florian à l'intuition",
+      "year": 2025,
+      "file": "data/tournois/2025/domerat.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250921/ob_3c80da_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250925/ob_5894b8_huitiemes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250921/ob_a2a0fc_quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250921/ob_895cf6_demi-finale.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250921/ob_cd9cbf_finale.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/09/flayosc-2025.html": {
+      "type": "tournament",
+      "title": "Flayosc 2025 : Sébastien d'un souffle",
+      "year": 2025,
+      "file": "data/tournois/2025/flayosc.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251011/ob_9e6834_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251011/ob_df8885_match-n-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251011/ob_00e851_match-n-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251011/ob_2a7ea4_match-n-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251011/ob_52e3bf_match-n-4.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251011/ob_21e682_match-n-5.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251011/ob_2d9207_match-n-6.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251011/ob_e20fe4_match-n-7.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/09/gp-creil-2025.html": {
+      "type": "tournament",
+      "title": "GP Creil 2025 : Arnaud vainqueur à rallonge",
+      "year": 2025,
+      "file": "data/tournois/2025/gp-creil.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250922/ob_65bdc8_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250921/ob_c4c46d_huitiemes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250921/ob_b68210_quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250921/ob_4a82bb_demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250921/ob_203ec6_finales.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/09/invitation-tournoi-de-chimay-2025-7.html": {
+      "type": "no_txt",
+      "title": "Invitation aux tournois de Durtol 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/09/invitation-tournoi-de-chimay-2025.html": {
+      "type": "no_txt",
+      "title": "Invitation tournoi de Chimay 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/09/la-roche-sur-yon.html": {
+      "type": "tournament",
+      "title": "La Roche-sur-Yon : À une marche des Centenaires",
+      "year": 2025,
+      "file": "data/tournois/2025/la-roche-sur-yon.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250922/ob_a7ddfc_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250922/ob_5b93db_match-n-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250922/ob_e8c863_match-n-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250922/ob_687c34_match-n-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250922/ob_b85d42_match-n-4.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250922/ob_e254b0_match-n-5.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250922/ob_41dd1e_match-n-6.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250922/ob_5d7084_match-n-7.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/09/narbonne-2025.html": {
+      "type": "tournament",
+      "title": "Narbonne 2025 : Florian conserve son  titre.",
+      "year": 2025,
+      "file": "data/tournois/2025/narbonne.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250917/ob_82881e_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250917/ob_0cff62_match-n-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250917/ob_0b76dd_match-n-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250917/ob_047ff0_match-n-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250917/ob_4947dd_match-n-4.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/09/riscle-2025-sebastien-hotissime.html": {
+      "type": "tournament",
+      "title": "Riscle 2025 : Sébastien hotissime !",
+      "year": 2025,
+      "file": "data/tournois/2025/riscle-2025-sebastien-hotissime.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250916/ob_374271_match-n-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250916/ob_dc0a86_match-n-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250916/ob_f9e414_match-n-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250916/ob_b03135_match-n-4.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250916/ob_e329d5_match-n-5.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250916/ob_dcb3db_match-n-6.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250916/ob_7ec231_match-n-7.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/09/robert-lemaitre-nous-a-quittes.html": {
+      "type": "no_txt",
+      "title": "Robert Lemaître nous a quittés",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/09/sainte-jamme-le-mans-live.html": {
+      "type": "tournament",
+      "title": "Sainte Jamme Le Mans : Ahmed les a tous fait déjouer",
+      "year": 2025,
+      "file": "data/tournois/2025/sainte-jamme-le-mans-live.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250928/ob_f63a8c_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250928/ob_540e5d_huitiemes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250928/ob_07ea5b_quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250928/ob_f74480_demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250928/ob_488c95_finale.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/09/tarbes-2025.html": {
+      "type": "tournament",
+      "title": "Tarbes 2025 : La fête à la maison pour Laurent",
+      "year": 2025,
+      "file": "data/tournois/2025/tarbes.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250916/ob_fad135_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250916/ob_6b284e_huitiemes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250916/ob_22bfb8_quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250916/ob_b9a974_demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20250916/ob_8a79c1_finales.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/10/6900e14e-787e.html": {
+      "type": "no_txt",
+      "title": "Annonce du Tournoi de Montegnée 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/10/annonce-des-tournois-de-grenoble-2025.html": {
+      "type": "no_txt",
+      "title": "Annonce des tournois de Grenoble 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/10/annonce-des-tournois-du-comminges.html": {
+      "type": "no_txt",
+      "title": "Annonce des tournois du Comminges",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/10/annonce-du-15eme-championnat-d-auvergne.html": {
+      "type": "no_txt",
+      "title": "Annonce du 15ème Championnat d'Auvergne",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/10/annonce-du-tournoi-d-antibes-2-2025.html": {
+      "type": "no_txt",
+      "title": "Annonce du Tournoi d'Antibes 2 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/10/caen-2025-live.html": {
+      "type": "tournament",
+      "title": "Caen 2025 : Thierry continue sur sa lancée",
+      "year": 2025,
+      "file": "data/tournois/2025/caen-2025-live.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251019/ob_79c1fc_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251019/ob_b11de5_huitiemes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251019/ob_6ef6af_quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251019/ob_d0d6b6_demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251020/ob_ab99d2_finale.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/10/douai-2025.html": {
+      "type": "tournament",
+      "title": "Douai 2025 : Arnaud s'est arraché pour boucler la centième.",
+      "year": 2025,
+      "file": "data/tournois/2025/douai.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251026/ob_b3b328_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251026/ob_89bb31_huitiemes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251027/ob_4177a6_quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251026/ob_79a9e5_demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251027/ob_e5fb85_finales.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/10/durtol-telethon.html": {
+      "type": "tournament",
+      "title": "Durtol-Téléthon : Jean-Marc conserve son titre",
+      "year": 2025,
+      "file": "data/tournois/2025/durtol-telethon.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251016/ob_bc9ee4_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251016/ob_2c3ea1_huitiemes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251016/ob_a5fe8e_quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251016/ob_f99b3f_demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251016/ob_d8e69f_finales.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/10/elisez-les-plus-beaux-solos-du-3e-trimestre-2025.html": {
+      "type": "no_txt",
+      "title": "Élisez les plus beaux solos du 3e trimestre 2025 : les résultats !",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/10/grenoble-2.html": {
+      "type": "tournament",
+      "title": "Grenoble 2 : Manu conserve aussi son titre partie 2",
+      "year": 2025,
+      "file": "data/tournois/2025/grenoble-2.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251020/ob_14b89c_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251020/ob_c81dfd_match-n-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251020/ob_084b2d_match-n-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251020/ob_cf6bdd_match-n-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251020/ob_9f1e8b_match-n-4.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251020/ob_04ba08_match-n-5.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251020/ob_84a505_match-n-6.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251020/ob_a270c6_match-n-7.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/10/grenoble1.html": {
+      "type": "tournament",
+      "title": "Grenoble1 : Manu conserve son titre partie 1.",
+      "year": 2025,
+      "file": "data/tournois/2025/grenoble1.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251020/ob_d82ef9_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251020/ob_1223fe_huitiemes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251020/ob_2564db_quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251020/ob_516450_demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251020/ob_8749ae_finales.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/10/lyon-2025.html": {
+      "type": "tournament",
+      "title": "Lyon 2025 : Durand héroïque, Dumas opportuniste",
+      "year": 2025,
+      "file": "data/tournois/2025/lyon.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251006/ob_d6671d_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251006/ob_b967c1_huitiemes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251005/ob_3ce01d_quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251005/ob_ab0284_demi-finale.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251005/ob_e689e5_finale.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/10/mamers-2025-live.html": {
+      "type": "tournament",
+      "title": "Mamers 2025 : Thierry en mode Topeur.",
+      "year": 2025,
+      "file": "data/tournois/2025/mamers-2025-live.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251012/ob_4fa1a0_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251012/ob_ddffb2_huitiemes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251013/ob_28d184_quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251013/ob_7c8af2_demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251013/ob_f5d9bf_finale.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/10/niort-2025.html": {
+      "type": "tournament",
+      "title": "Niort 2025 : Pierre se sort de la tenaille tarbaise.",
+      "year": 2025,
+      "file": "data/tournois/2025/niort.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251014/ob_b6214d_niort-2025-duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251014/ob_2ae2e8_niort-2025-match-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251014/ob_9d560e_niort-2025-match-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251014/ob_20f903_niort-2025-match-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251014/ob_d466e5_niort-2025-match-4.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251014/ob_f5bf7b_niort-2025-match-5.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251014/ob_947751_niort-2025-match-6.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251014/ob_ede7a5_niort-2025-match-7.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/10/yvonne-carteret-nous-a-quittes.html": {
+      "type": "no_txt",
+      "title": "Yvonne Carteret nous a quittés",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/11/antibes-2.html": {
+      "type": "tournament",
+      "title": "Antibes-2 : Manu revient à hauteur de Florian",
+      "year": 2025,
+      "file": "data/tournois/2025/antibes-2.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251126/ob_858b3f_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251126/ob_6cfcb0_match-n-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251126/ob_3967f3_match-n-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251126/ob_42239a_match-n-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251126/ob_a45da9_match-n-4.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251126/ob_74de00_match-n-5.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251126/ob_453261_match-n-6.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251126/ob_7b49e0_match-n-7.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/11/bon-encontre-paires-2026.html": {
+      "type": "tournament",
+      "title": "Bon Encontre Paires 2026 : Florian et Marvin sans concession",
+      "year": 2025,
+      "file": "data/tournois/2025/bon-encontre-paires.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251104/ob_279f2c_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251104/ob_a3a16e_match-n-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251104/ob_a161a4_match-n-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251104/ob_0c3d78_match-n-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251104/ob_e24e3b_match-n-4.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251104/ob_76c5a8_match-n-5.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/11/comminges-2025.html": {
+      "type": "tournament",
+      "title": "Comminges 2025 : La cinquantième de Florian",
+      "year": 2025,
+      "file": "data/tournois/2025/comminges.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251118/ob_6ce072_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251118/ob_da7632_match-n-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251118/ob_1d398b_match-n-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251118/ob_d51b59_match-n-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251118/ob_70a505_match-n-4.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251118/ob_a3a3cb_match-n-5.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251118/ob_dd554b_match-n-6.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251118/ob_160f02_match-n-7.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/11/creil-2025-live.html": {
+      "type": "tournament",
+      "title": "Creil 2025 - Olivier comme d’habitude",
+      "year": 2025,
+      "file": "data/tournois/2025/creil-2025-live.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251126/ob_0e2876_duplicate-creil.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251123/ob_5f52ca_huitiemes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251123/ob_51f51a_quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251123/ob_8c6c26_demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251123/ob_bde29b_finale.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/11/decathlon-comminges-2025.html": {
+      "type": "tournament",
+      "title": "Décathlon Comminges 2025 : La vingtième de Marvin",
+      "year": 2025,
+      "file": "data/tournois/2025/decathlon-comminges.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251117/ob_4926de_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251117/ob_44eab1_demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251117/ob_7c5216_finales.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/11/durtol-decathlon-2025.html": {
+      "type": "tournament",
+      "title": "Durtol-décathlon 2025 : Florian à toutes épreuves",
+      "year": 2025,
+      "file": "data/tournois/2025/durtol-decathlon.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251103/ob_a59a8f_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251103/ob_5bfd2a_demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251103/ob_daa7e0_finales.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251103/ob_4bc427_solutions.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/11/gardanne-2025.html": {
+      "type": "tournament",
+      "title": "Gardanne 2025 : Jean-François inaugure le palmarès",
+      "year": 2025,
+      "file": "data/tournois/2025/gardanne.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251104/ob_d507a4_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251105/ob_956207_match-n-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251104/ob_b8e731_match-n-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251104/ob_91392d_match-n-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251104/ob_d25cd3_match-n-4.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251104/ob_c32308_match-n-5.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251104/ob_59f71a_match-n-6.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251104/ob_4fc375_match-n-7.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/11/infos-concernant-le-tournoi-de-paris-2025.html": {
+      "type": "no_txt",
+      "title": "Infos concernant le tournoi de Paris 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/11/laxou-automne-2025.html": {
+      "type": "tournament",
+      "title": "Laxou-Automne 2025 : Une bonne dose de réussite pour Arnaud",
+      "year": 2025,
+      "file": "data/tournois/2025/laxou-automne.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251108/ob_0765ed_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251109/ob_044e47_match-n-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251109/ob_cac5cf_match-n-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251109/ob_590438_match-n-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251109/ob_5266ba_match-n-4.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251109/ob_55ddcd_match-n-5.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251109/ob_9056e7_match-n-6.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251109/ob_d5558b_match-n-7.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/11/le-duplicate-de-fin-d-annee-arrive-bientot.html": {
+      "type": "no_txt",
+      "title": "Le duplicate de fin d'année a été envoyé",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/11/paris-2025.html": {
+      "type": "tournament",
+      "title": "Paris 2025 : Même légèrement en deça, Olivier assure toujours.",
+      "year": 2025,
+      "file": "data/tournois/2025/paris.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251117/ob_75043f_tirages-duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251116/ob_84e5eb_tirages-huitiemes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251116/ob_f48e5f_tirages-quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251116/ob_9faf16_tirages-demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251116/ob_111f08_tirages-finales.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/11/pointures-de-l-est-2025.html": {
+      "type": "tournament",
+      "title": "Pointures de l'Est 2025 : Un final renversant.",
+      "year": 2025,
+      "file": "data/tournois/2025/pointures-de-l-est.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251201/ob_c58534_match-n-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251201/ob_33b12e_match-n-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251201/ob_38998e_match-n-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251201/ob_be4aea_match-n-4.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251201/ob_9d568e_match-n-5.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251201/ob_b8477f_match-n-6.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251201/ob_5aaa76_match-n-7.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251201/ob_570855_match-n-8.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251201/ob_51a0f0_match-n-9.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251201/ob_034061_match-n-10.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251201/ob_1f7524_match-n-11.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251201/ob_db52f1_match-n-12.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251201/ob_e01aba_match-n-13.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251201/ob_9f12c5_match-n-14.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251201/ob_70f75f_match-n-15.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/11/viroflay-2025.html": {
+      "type": "tournament",
+      "title": "Viroflay 2025 : Olivier insubmersible, Thierry toujours maudit.",
+      "year": 2025,
+      "file": "data/tournois/2025/viroflay.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251117/ob_a40751_tirages-duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251109/ob_717d3d_tirages-huitiemes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251109/ob_7c4bf1_tirages-quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251109/ob_b75276_tirages-demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251109/ob_6f20a3_tirages-finales.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/12/annonce-du-tournoi-d-eysines-2026.html": {
+      "type": "no_txt",
+      "title": "Annonce du tournoi d'Eysines 2026",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/12/championnat-d-auvergne-2025.html": {
+      "type": "no_txt",
+      "title": "Championnat d'Auvergne 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/12/christian-egger-nous-a-quittes.html": {
+      "type": "no_txt",
+      "title": "Christian Egger nous a quittés",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/12/elisez-le-super-combatif-de-la-saison-2025.html": {
+      "type": "no_txt",
+      "title": "Élisez le Super-Combatif de la saison 2025",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/12/finale-normande.html": {
+      "type": "tournament",
+      "title": "Finale Normande : Thierry n'a rien laissé en route.",
+      "year": 2025,
+      "file": "data/tournois/2025/finale-normande.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251208/ob_374d7e_match-n-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251207/ob_224021_match-n-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251207/ob_12a54e_match-n-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251207/ob_f14100_match-n-4.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251207/ob_035e45_match-n-5.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251207/ob_3fd4ee_match-n-6.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251207/ob_a5a84b_match-n-7.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251207/ob_76746d_match-n-8.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251207/ob_30e390_match-n-9.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251207/ob_d30046_match-n-10.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251207/ob_db59a6_match-n-11.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251207/ob_2703ed_match-n-12.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251207/ob_79c8c5_match-n-13.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251207/ob_7482a9_match-n-14.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251207/ob_47f2bc_match-n-15.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/12/invitation-au-tournoi-de-gleize-2026.html": {
+      "type": "no_txt",
+      "title": "Invitation au tournoi de Gleizé 2026.",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/12/invitation-du-tournoi-de-dour-2026.html": {
+      "type": "no_txt",
+      "title": "Rappel : Invitation du Tournoi de Dour 2026",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/12/invitation-du-tournoi-de-fontenay-sous-bois-2026.html": {
+      "type": "no_txt",
+      "title": "Invitation du tournoi de Fontenay-sous-Bois 2026",
+      "year": 2025
+    },
+    "https://clubdcdl.over-blog.com/2025/12/masters-grnad-ouest-2025.html": {
+      "type": "tournament",
+      "title": "Masters Grand Ouest 2025 : Hat-trick pour Florian",
+      "year": 2025,
+      "file": "data/tournois/2025/masters-grnad-ouest.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251222/ob_ec7e9c_match-n-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251222/ob_161eb8_match-n-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251222/ob_af0797_match-n-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251222/ob_171970_match-n-4.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251222/ob_3024b3_match-n-5.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251222/ob_920fe0_match-n-6.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251222/ob_760ab0_match-n-7.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251222/ob_b436e2_match-n-8.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251222/ob_e183e6_match-n-9.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251222/ob_ca28e2_match-n-10.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251222/ob_700dfa_match-n-11.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251222/ob_94c208_match-n-12.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251222/ob_90d992_match-n-13.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251222/ob_b80424_match-n-14.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251222/ob_7ceed7_match-n-15.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/12/masters-hdf-2025.html": {
+      "type": "tournament",
+      "title": "Masters HDF 2025 : Christophe solide de bout en bout",
+      "year": 2025,
+      "file": "data/tournois/2025/masters-hdf.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251215/ob_e35f29_match-n-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251215/ob_af54be_match-n-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251215/ob_604a2b_match-n-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251215/ob_32e40c_match-n-4.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251215/ob_7f6c4d_match-n-5.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251215/ob_db3afb_match-n-6.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251215/ob_87f8ff_match-n-7.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251215/ob_7f07ed_match-n-8.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251215/ob_14df26_match-n-9.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251215/ob_b32434_match-n-10.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251215/ob_74ff26_match-n-11.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251215/ob_29030a_match-n-12.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251215/ob_c986f8_match-n-13.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251215/ob_e9e764_match-n-14.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251215/ob_799b5d_match-n-15.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/12/masters-occitanie-laurent-a-maitrise-jusqu-au-bout-les-maitres.html": {
+      "type": "tournament",
+      "title": "Masters Occitanie : Laurent a maîtrisé jusqu'au bout les maîtres",
+      "year": 2025,
+      "file": "data/tournois/2025/masters-occitanie-laurent-a-maitrise-jusqu-au-bout-les-maitres.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251209/ob_beee0a_match-n-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251209/ob_9971a2_match-n-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251209/ob_95984d_match-n-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251209/ob_dd2082_match-n-4.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251209/ob_ab4790_match-n-5.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251209/ob_cd57bc_match-n-6.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251209/ob_ed99c7_match-n-7.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251209/ob_d30ad5_match-n-8.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251209/ob_b6265a_match-n-9.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251209/ob_cccb95_match-n-10.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251209/ob_a8a992_match-n-11.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251209/ob_59d980_match-n-12.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251209/ob_44d75c_match-n-13.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251209/ob_8aa643_match-n-14.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251209/ob_48aa20_match-n-15.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/12/montegnee-2025.html": {
+      "type": "tournament",
+      "title": "Montégnée 2025 : Philippe 1er Le Coach roi de belgique",
+      "year": 2025,
+      "file": "data/tournois/2025/montegnee.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251201/ob_1e145b_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251201/ob_ac596c_match-n-1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251201/ob_c2ebd3_match-n-2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251201/ob_7a617b_match-n-3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251201/ob_ec2828_match-n-4.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251201/ob_eaf010_match-n-5.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251201/ob_3d0834_match-n-6.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251201/ob_4def63_match-n-7.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20251201/ob_ebf433_finale.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2025/12/remise-des-maillots-2025.html": {
+      "type": "no_txt",
+      "title": "Remise des maillots 2025",
+      "year": 2025
+    }
+  }
+}

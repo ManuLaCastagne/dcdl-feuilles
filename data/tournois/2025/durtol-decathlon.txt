@@ -1,0 +1,271 @@
+1) (PP) 4 3 2 1 9 1 / 976
+2) (TL) DURTOLUDEV
+3) (PS) IDERINIHOK
+4) (GP) 8 2 25 50 75 100 / 241
+5) (ANA) ETELETUCEM
+6) (EM) TEDOTENOME
+7) (MJ) 6 9 8 6 5 10 / 800
+8) (PAR) INALESESAN
+9) (TL) JAUDELISEL
+10) (ECO) 10 8 10 25 3 6 / 668
+11) (SDD) 2 9 6 10 9 2 / 923 et 176
+12) (PS) EQOPITATOC
+13) (ANA) PUDITESIXI
+14) (PP) 4 3 2 1 8 7 / 326
+15) (EM) EPEMATOPEJ
+16) (PAR) TATATENAQE
+17) (GP) 5 4 25 50 75 100 / 736
+18) (TL) SANCYECADI
+19) (PS) ULOFELAROX
+20) (MJ) 8 9 10 5 50 7 / 604
+21) (ECO) 6 3 2 10 7 3 / 530
+22) (ANA) NUZERUDIST
+23) (EM) NEHIGUREME
+24) (SDD) 5 3 1 5 50 3 / 604 et 495
+25) (PAR) UGUSINENES
+26) (TL) GERGOVIEAA
+27) (PP) 4 3 2 1 9 9 / 578
+28) (PS) EGIXUCINUS
+29) (ANA) VUSOVIPIFE
+30) (GP) 6 9 25 50 75 100 / 326
+31) (MJ) 10 5 3 5 25 1 / 764
+32) (EM) TIRATELENL
+33) (PAR) RERIDAQUVU
+34) (ECO) 2 5 7 10 9 3 / 396
+35) (TL) PARIOUSUNA
+36) (PS) OPANUCALEZ
+37) (SDD) 3 9 8 10 5 8 / 662 et 437
+38) (ANA) ISEGAPUXAR
+39) (EM) ECERETEREA
+40) (PP) 4 3 2 1 75 10 / 221
+
+
+1) (SDD) 6 4 6 1 3 4 / 842 et 257
+2) (PS) OPESITULIQ
+3) (EM) NEMEVUNESA
+4) (ECO) 5 1 9 3 7 5 / 692
+5) (ANA) OSUXARUDAG
+6) (PAR) SAVITECEFE
+7) (MJ) 2 4 5 7 8 50 / 217
+8) (TL) VOLVICALEW
+9) (PS) RESUVIFERY
+10) (GP) 9 1 25 50 75 100 / 324
+11) (PP) 10 6 4 3 2 1 / 478
+12) (EM) ORALADASIN
+13) (ANA) SINUHEPEQI
+14) (SDD) 1 8 3 8 5 1 / 422 et 677
+15) (PAR) UFACEBEDAT
+16) (TL) AMBERTEVIN
+17) (ECO) 1 7 1 10 3 9 / 265
+18) (PS) ETEROSOPIX
+19) (EM) LEXATERESI
+20) (MJ) 2 4 5 7 7 8 / 737
+
+1) (SDD) 6 4 3 5 9 2 / 415 et 684
+2) (PS) ESESESERUW
+3) (EM) BESORYMITO
+4) (ECO) 6 9 5 25 8 3 / 495
+5) (ANA) ENALIRERAN
+6) (PAR) HAMORONIVO
+7) (MJ) 8 8 25 10 1 3 / 574
+8) (TL) MUROLOGUTE
+9) (PS) EPUDIJILET
+10) (GP) 6 3 25 50 75 100 / 652
+11) (PP) 7 25 4 3 2 1 / 581
+12) (EM) HEPESECECP
+13) (ANA) QATIDETICU
+14) (SDD) 3 2 9 6 7 8 / 494 et 605
+15) (PAR) AXENENANIL
+16) (TL) BLAISEASEA
+17) (ECO) 3 1 5 50 6 7 / 268
+18) (PS) ELUSOCUNOK
+19) (EM) RISIDATOTU
+20) (MJ) 2 2 3 3 5 9 / 173
+
+Duplicate
+
+1) (PP) 4 3 2 1 9 1 / 976 - 10/10
+1+1=2 ; x9x4x3x2=432 (compte bloqué) Approches suivantes : 405 (8 pts), 360 (6) et 351 (4)
+2) (TL) DURTOLUDEV - 7/17
+détordu, douleur, douteur, revoulu
+3) (PS) IDERINIHOK - 17/34
+khoin
+4) (GP) 8 2 25 50 75 100 / 241 - 10/44
+100+8=108 ; x2=216 ; +25=CB
+5) (ANA) ETELETUCEM - 11/55
+émulée + meulée
+6) (EM) TEDOTENOME - 11/66
+démontée, menottée
+7) (MJ) 6 9 8 6 5 10 / 800 - 10/76
+6/6=1 ; +9=10 ; x10x8=CB
+8) (PAR) INALESESAN - 18/94
+alanines + ès, alanines + se, nasalisé + en, nasalisé + ne
+9) (TL) JAUDELISEL - 8/102
+dalleuse, dualisée, judaïsée, judelles
+10) (ECO) 10 8 10 25 3 6 / 668 - 10/112
+25x3=75 ; +6=81 ; x8=648 ; +10+10=CB
+11) (SDD) 2 9 6 10 9 2 / 923 et 176 - 20/132
+9+2=11 ; 10x9=90 ; -6=84 ; x11=924 (approche à 1) ou 922 faisable par ((60-9)x9+2)x2
+Approches suivantes : 920/926 (8 pts) puis application du barème
+10x9x2=180 ; -6+2=CB
+12) (PS) EQOPITATOC - 12/144
+coq (opacité seul 11)
+13) (ANA) PUDITESIXI - 13/157
+dispute ou disputé + stupide
+14) (PP) 4 3 2 1 8 7 / 326 - 10/167
+8x7x3=168 ; -4-1=163 ; x2=CB
+15) (EM) EPEMATOPEJ - 10/177
+empâtée, empotée, étampée
+16) (PAR) TATATENAQE - 16/193
+attenté, attente ou étêtant + aa
+17) (GP) 5 4 25 50 75 100 / 736 - 10/203
+75/25=3 ; 100+50-3=147 ; x5=735 (approche à 1)
+737 et approche à 2 infaisables, toutes les autres sont dans le barème
+18) (TL) SANCYECADI - 8/211
+acadiens, aidances
+19) (PS) ULOFELAROX - 19/230
+floraux
+20) (MJ) 8 9 10 5 50 7 / 604 - 10/240
+10x8=80 ; +5=85 ; x7=595 ; +9=CB
+21) (ECO) 6 3 2 10 7 3 / 530 - 13/253
+6+2=8 ; x7=56 ; -3=53 ; x10=CB (solution unique en 5 plaques)
+22) (ANA) NUZERUDIST - 27/280
+durites + érudits + réduits + rudiste + rudites + surdité
+23) (EM) NEHIGUREME - 12/292
+meringuée
+24) (SDD) 5 3 1 5 50 3 / 604 et 495 - 20/312
+5x3=15 ; -3=12 ; x50=600 ; +5-1=CB
+3x3=9 ; +1=10 ; x50=500 ; -5=CB
+25) (PAR) UGUSINENES - 18/330
+guinéens ou ingénues + su ou us
+26) (TL) GERGOVIEAA - 8/338
+aggravée, vaigrage
+27) (PP) 4 3 2 1 9 9 / 578 - 10/348
+4+3=7 ; x9=63 ; +1=64 ; x9=576 ; +2=CB (solution unique)
+28) (PS) EGIXUCINUS - 16/364
+cieux, exigus, iceux, sinueux
+29) (ANA) VUSOVIPIFE - 11/375
+fouies + soufie
+30) (GP) 6 9 25 50 75 100 / 326 - 10/385
+75-6=69 ; x100/25=276 ; +50=CB
+31) (MJ) 10 5 3 5 25 1 / 764 - 10/395
+25x10=250 ; +5=255 ; x3=765 ; -1=CB (solution unique)
+32) (EM) TIRATELENL - 12/407
+entailler, étrillant, littérale… (5 mots)
+33) (PAR) RERIDAQUVU - 18/425
+vraquier + du ou dû
+34) (ECO) 2 5 7 10 9 3 / 396 - 13/438
+10+7+5=22 ; x9x2=CB
+35) (TL) PARIOUSUNA - 8/446
+paraison
+36) (PS) OPANUCALEZ - 18/464
+canezou, calzone
+37) (SDD) 3 9 8 10 5 8 / 662 et 437 - 20/484
+9x3=27 ; 10x8x8=640 ; +27-5=CB
+10x8=80 ; +9=89 ; x5=445 ; -8=CB
+38) (ANA) ISEGAPUXAR - 20/504
+aspiré + épairs + paires + pariés + parsie
+39) (EM) ECERETEREA - 11/515
+retracée, retercée
+40) (PP) 4 3 2 1 75 10 / 221 - 10/525
+75x3=225 ; -4=CB
+
+
+Demies
+
+1) (SDD) 6 4 6 1 3 4 / 842 et 257 - 10/10
+6+3=9 ; x4=36 ; -1=35 ; x6x4=840 (approche à 2)
+844 infaisable, approches suivantes : 846 (8 pts), 848 (6), 855 (4) puis application du barème
+4+3=7 ; x6x6=252 ; +4+1=CB
+Seule autre solution : (10x4+3)x6-1
+2) (PS) OPESITULIQ - 19/29
+politiques (pas d’autre 18 que le singulier et le participe passé)
+3) (EM) NEMEVUNESA - 11/40
+vanneuse
+4) (ECO) 5 1 9 3 7 5 / 692 - 13/53
+5+5+1=11 ; x9x7=693 (unique approche à 1 en 5 plaques)
+Toutes les approches sont dans le barème
+5) (ANA) OSUXARUDAG - 14/67
+argus + gaurs + graus + guars
+6) (PAR) SAVITECEFE - 18/85
+facéties + vé
+7) (MJ) 2 4 5 7 8 50 / 217 - 10/95
+50x4=200 ; +8+5+2=CB
+8) (TL) VOLVICALEW - 7/102
+avicole, vacillé, violacé
+9) (PS) RESUVIFERY - 18/120
+ferrys (pas d’autre 17 que le singulier, pas de 16 ni de 15)
+10) (GP) 9 1 25 50 75 100 / 324 - 10/130
+25x9=225 ; +100-1=CB
+11) (PP) 10 6 4 3 2 1 / 478 - 10/140
+10x6x4=240 ; -1=239 ; x2=CB
+12) (EM) ORALADASIN - 10/150
+landais, lardons, ordinal… (9 mots)
+13) (ANA) SINUHEPEQI - 22/172
+enquise + équines + niquées + quinées
+14) (SDD) 1 8 3 8 5 1 / 422 et 677 - 20/192
+8+3=11 ; x5=55 ; -1-1=53 ; x8=424 (approche à 2)
+420 faisable par (8+4)x(8-1)x5
+Approches suivantes : 418 (8 pts) puis application du barème
+3-1=2 ; x8=16 ; +1=17 ; x8x5=680 (unique approche à 3)
+Approches suivantes : 672 (8 pts), 670 (6), 688 (4) puis application du barème
+15) (PAR) UFACEBEDAT - 16/208
+façade + tube, face + baudet, façadée + du, dû, tu ou ut…
+16) (TL) AMBERTEVIN - 9/217
+bravement, embrevant
+17) (ECO) 1 7 1 10 3 9 / 265 - 10/227
+3+1+1=5 ; 9x7=63 ; -10=53 ; x5=CB
+18) (PS) ETEROSOPIX - 19/246
+exportés, extirpés
+19) (EM) LEXATERESI - 12/258
+étalières
+20) (MJ) 2 4 5 7 7 8 / 737 - 10/268
+7+4=11 ; 7+2=9 ; 9x8=72 ; -5=67 ; x11=CB (solution unique)
+
+
+Finales
+
+1) (SDD) 6 4 3 5 9 2 / 415 et 684 - 20/20
+6+3=9 ; x9=81 ; +2=83 ; x5=CB 7
+4x3=12 ; +2=14 ; x5=70 ; +6=76 ; x9=CB
+2) (PS) ESESESERUW - 12/32
+wus (pas d’autre 11 que le singulier, pas de 10 ni de 9)
+3) (EM) BESORYMITO - 11/43
+morosité, mort-bois, symbiote… (6 mots)
+4) (ECO) 6 9 5 25 8 3 / 495 - 16/59
+8+3=11 ; x9x5=CB
+Deux autres solutions en 4 plaques : (30+25)x9 et (25+8)x5x3
+5) (ANA) ENALIRERAN - 18/77
+aérien + ânerie + ânière + rainée, irréel + lierre + relier + relire
+6) (PAR) HAMORONIVO - 16/93
+aviron ou vairon + homo ou moho
+7) (MJ) 8 8 25 10 1 3 / 574 - 10/103
+25-1=24 ; x8x3=576 ; -10+8=CB
+8) (TL) MUROLOGUTE - 8/111
+télougou, urologue
+9) (PS) EPUDIJILET - 15/126
+judéité (julep seul 14)
+10) (GP) 6 3 25 50 75 100 / 652 - 10/136
+100/50=2 ; 6+3=9 ; x75=675 ; -25+2=CB (solution unique)
+11) (PP) 7 25 4 3 2 1 / 581 - 10/146
+25x2=50 ; -1=49 ; x4x3=588 ; -7=CB
+Deux autres solutions : (25+4)x10x2+1 et (25x3+4x2)x7
+12) (EM) HEPESECECP - 10/156
+pêchées
+13) (ANA) QATIDETICU - 15/171
+acquitté + tactique
+14) (SDD) 3 2 9 6 7 8 / 494 et 605 - 20/191
+9x7=63 ; -2=61 ; x8=488 ; +6=CB
+9+2=11 ; 8x6=48 ; +7=55 ; x11=CB
+15) (PAR) AXENENANIL - 16/207
+alanine + ex ou ne, linnéen + aa…
+16) (TL) BLAISEASEA - 8/215
+abaissée, balisées, sablaise°… (5 mots)
+17) (ECO) 3 1 5 50 6 7 / 268 - 16/231
+6x3=18 ; 50x5=250 ; +18=CB (unique solution en 4 plaques)
+18) (PS) ELUSOCUNOK - 16/247
+cokes, locks, necks
+19) (EM) RISIDATOTU - 11/258
+distrait, stradiot, tourista, traduits
+20) (MJ) 2 2 3 3 5 9 / 173 - 10/268
+5x2=10 ; +9=19 ; x3x3=171 ; +2=CB

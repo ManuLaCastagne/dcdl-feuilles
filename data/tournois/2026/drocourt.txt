@@ -1,0 +1,118 @@
+1) 10 7 10 4 2 6 318
+2) L A V E D E N E C E
+3) E H E H O N U S E P
+4) 50 3 9 6 100 10 861
+5) D I R E N A T I L U
+6) A H E P O M E R A S
+7) 5 7 6 1 4 2 674
+8) L E G I D I S E N I
+9) U X E T U S A V A S
+10) 7 4 1 1 50 5 621
+11) 10 3 25 10 100 4 125
+12) C O L A M E V I T A
+13) U V I N I S U N E F
+14) 5 7 4 10 50 8 401
+15) C O D A J A L E T U
+16) E G A M I R E D E N
+17) 25 7 50 10 1 5 812
+18) N E T E P U Q E S U
+19) C I V E D I S E L P
+20) 4 5 6 25 3 9 948
+21) 3 8 75 7 2 8 618
+22) F A R U D A S U L I
+23) E C E N I R I L E L
+24) 75 7 50 7 3 10 936
+25) S E L E C I N Y R E
+26) E N E B U N E Q I A
+27) 6 2 9 3 3 75 479
+28) M E M A Z O M E S A
+29) A N U M A S E C E X
+30) 9 6 8 25 4 3 915
+
+
+1) 2 1 5 50 4 25 890
+2) B E P E N E P E S E
+3) I M U N U G O M U N
+4) 8 2 1 50 3 75 160
+5) S O F O P I R I D A
+6) A B E N A L I S A N
+7) 10 2 7 25 6 100 994
+8) C U X E V E N E N E
+9) C E D I T E N A T T
+10) 5 7 5 1 75 50 841
+11) 75 5 6 7 100 8 257
+12) T E N E V E P E W U
+13) U T E G U S I S E R
+14) 6 7 3 50 75 8 429
+15) R E V A T O N E Q I
+16) A T I D E F E S P E
+17) 5 3 10 5 4 1 573
+18) P E T A M I D E N U
+19) A R A L E R E S O E
+20) 5 5 25 10 75 7 306
+
+
+1) 50 4 2 7 4 6 111
+2) A B U S I L O L M O
+3) N A R E B I B O C E
+4) 2 10 8 8 10 3 562
+5) I N U C U N O L E N
+6) T E S E S U L E V O
+7) 1 4 1 3 7 10 789
+8) I S O B U N O R E N
+9) O T E T I M E E S I
+10) 5 5 75 2 4 2 922
+11) 35 9 100 8 2 7 466
+12) E S O L E N E S E T
+13) R A S O S O S E N O
+14) 3 2 6 10 1 75 550
+15) N E P U N I S A P D
+16) L E V I C E D U S E
+17) 6 9 7 8 50 10 620
+18) E Q I T O D I S E D
+19) E P A V A L E U R E
+20) 9 2 4 2 1 8 351
+
+
+1) 4 25 1 6 9 75 772
+2) E S A S I H E C I R
+3) P E L U D E P E S E
+4) 7 5 2 3 9 1 785
+5) E P E S A Q E L O R
+6) M U G A L E G A L E
+7) 1 6 8 1 2 10 430
+8) E N E Q U S I T E D
+9) O I C I C A P Y X E
+10) 10 2 50 9 8 154
+11) 75 7 3 2 4 6 950
+12) A M O Z I L E T E G
+13) E F E L O R O G U E
+14) 7 4 75 1 3 3 251
+15) E D O G A V U P I F
+16) V A L I R I V U N E
+17) 6 6 1 7 1 4 307
+18) S E V E N E D E S T
+19) N E C I V E R E V O
+20) 6 5 5 8 1 7 644
+
+
+1) 1 3 75 7 3 4 686
+2) O P E R E N O V E T
+3) S E S E L E B I F E
+4) 7 9 10 4 2 10 825
+5) I D I C O L O N E M
+6) S A G E B A D I R U
+7) 9 5 10 100 8 4 717
+8) E T A M E S E S E L
+9) P I T A R O P E T U
+10) 9 75 9 1 4 5 203
+11) 9 10 6 1 4 3 271
+12) N I N E L I R A R R
+13) A S O H A S A Y T A
+14) 4 9 6 100 25 7 731
+15) A G A C E C I M E D
+16) C E G E T A N U G E
+17) 7 10 2 5 3 1 627
+18) O V U T I P E Q E D
+19) R E N U T U N A P E
+20) 2 4 6 3 10 8 958

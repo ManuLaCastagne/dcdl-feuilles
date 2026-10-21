@@ -8,7 +8,11 @@ from dcdl.models import SheetOptions
 from dcdl.parser import parse_manual, draws_to_text
 from dcdl.randomizer import generate_random
 from dcdl.lists import list_files, load_file, sample_draws
-from dcdl.tournaments import fetch_tournament
+from dcdl.tournaments import (
+    tournament_years,
+    tournaments_for_year,
+    load_tournament,
+)
 from dcdl.pdf_generator import generate_pdf
 from dcdl.solver import solve_draws
 
@@ -20,6 +24,7 @@ from dcdl.solver import solve_draws
 ROOT = Path(__file__).parent
 ASSETS = ROOT / "assets"
 LISTS = ROOT / "data" / "listes"
+TOURNAMENTS = ROOT / "data" / "tournois"
 
 st.set_page_config(
     page_title="DCDL — Feuilles de jeu",
@@ -253,74 +258,83 @@ if source == "✍️ Manuel":
 
 elif source == "🏆 Tournoi":
 
-    c1, c2, c3 = st.columns(3)
+    years = tournament_years(TOURNAMENTS)
 
-    city = c1.text_input(
-        "Ville",
-        "le-touquet",
-    )
+    if not years:
 
-    year = c2.text_input(
-        "Année",
-        "2026",
-    )
+        st.warning(
+            "Aucun tournoi n'est encore présent dans "
+            "data/tournois."
+        )
 
-    month = c3.selectbox(
-        "Mois",
-        range(1, 13),
-        index=0,
-        format_func=lambda m: [
-            "Janvier",
-            "Février",
-            "Mars",
-            "Avril",
-            "Mai",
-            "Juin",
-            "Juillet",
-            "Août",
-            "Septembre",
-            "Octobre",
-            "Novembre",
-            "Décembre",
-        ][m - 1],
-    )
+        st.caption(
+            "Lance le script de synchronisation depuis "
+            "ton Mac pour importer les tournois."
+        )
 
-    url = st.text_input(
-        "URL de l'article (facultatif)",
-        placeholder=(
-            "https://clubdcdl.over-blog.com/"
-            "2026/09/..."
-        ),
-    )
+    else:
 
-    if st.button(
-        "Récupérer le tournoi",
-        type="primary",
-    ):
-        try:
-            with st.spinner(
-                "Récupération des fichiers de tirages…"
+        year = st.selectbox(
+            "Année",
+            years,
+        )
+
+        available = tournaments_for_year(
+            TOURNAMENTS,
+            year,
+        )
+
+        if not available:
+
+            st.warning(
+                "Aucun tournoi disponible pour cette année."
+            )
+
+        else:
+
+            labels = [
+                tournament["name"]
+                for tournament in available
+            ]
+
+            selected_name = st.selectbox(
+                "Tournoi",
+                labels,
+            )
+
+            selected_tournament = available[
+                labels.index(selected_name)
+            ]
+
+            if st.button(
+                "Charger le tournoi",
+                type="primary",
             ):
-                st.session_state.draws, page = (
-                    fetch_tournament(
-                        city,
-                        year,
-                        url,
-                        month,
+
+                try:
+
+                    st.session_state.draws = (
+                        load_tournament(
+                            selected_tournament["path"]
+                        )
                     )
-                )
 
-                st.session_state.source_info = page
+                    st.session_state.source_info = (
+                        selected_tournament[
+                            "relative_path"
+                        ]
+                    )
 
-                st.session_state.filename_info = {
-                    "source": "Tournoi",
-                    "city": city,
-                    "year": year,
-                }
+                    st.session_state.filename_info = {
+                        "source": "Tournoi",
+                        "city": selected_tournament[
+                            "name"
+                        ],
+                        "year": year,
+                    }
 
-        except Exception as e:
-            st.error(str(e))
-
+                except Exception as e:
+                    st.error(str(e))
 
 # ============================================================
 # LISTE / RAJOUTS
