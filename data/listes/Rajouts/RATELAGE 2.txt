@@ -1,0 +1,16 @@
+RATELAGE+I = légataire
+RATELAGE+M = martégale martelage
+RATELAGE+N = généralat
+RATELAGE+S = gastérale râtelages
+RATELAGE+V = travelage
+RATELAGE+EN = altéragène
+RATELAGE+FS = frelatages
+RATELAGE+II = égalitaire
+RATELAGE+IN = galanterie
+RATELAGE+IS = légataires
+RATELAGE+LX = extralégal
+RATELAGE+MS = martégales martelages
+RATELAGE+NS = généralats
+RATELAGE+PR = replâtrage
+RATELAGE+SS = gastérales
+RATELAGE+SV = travelages
