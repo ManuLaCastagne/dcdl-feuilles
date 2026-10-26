@@ -1,0 +1,90 @@
+1) 5 3 1 4 7 25  669
+2) U P I L O R O L E N
+3) N E T I H O M I S A
+4) 2 75 7 10 100 10  339
+5) U G A C I F I N E S
+6) T E N A R E R E R U
+7) 7 10 4 9 6 5  396
+8) O X A L O V U N E Q
+9) L A R E T U T A F A
+10) 3 4 10 1 4 1  682
+11) 100 910 6 7 4  726
+12) O D I P O D E D I F
+13) C I M E F A T U N E
+14) 75 7 2 6 4 6  885
+15) U N E D I C U P E D
+16) Q U N I S A R E R U
+17) 3 1 3 6 75 25  910
+18) E V A R O B I F A R
+19) S U L A T A T A T E
+20) 7 75 6 25 2 8  653
+
+1) 2 7 3 10 50 4  340
+2) E M A V U P O T U T
+3) N E F A M U S I D E
+4) 7 6 3 1 75 5  260
+5) O N Y J E S E T I N
+6) T U D O G E D E V E
+7) 6 3 50 4 1 1  585
+8) I B E L E N A C E N
+9) S E S O V A C E M U
+10) 2 10 3 2 8 9  549
+11) D N U S E L A S E R
+12) S U T A S E V E B I
+13) 6 2 10 1 1 25  369
+14) I S I T E R A T I C
+15) E E S O H A S I M U
+16) 10 29 75 1 6  625
+17) N E H R O M A C E N
+18) 50 25 1 4 75 9  782
+
+1) 5 3 7 25 10 10  884
+2) A S I C E D U Z A N
+3) N U R I N O V A T U
+4) 8 510 6 5 9  450
+5) E R E S A L U P O L
+6) S E G U L E X E F A
+7) 2 4 5 1 1 3  239
+8) E D A M U L I R A C
+9) T E B O R U N E L A
+10) 1 3 3 10 1 5  157
+11) O V U L I B E B E T
+12) R U M I S U L I D E
+13) 10 75 5 4 6 10  614
+14) E Q A V U T I T E N
+15) N I C E C E N E L E
+16) 3 2 100 1 9 7  318
+
+1) 25 6 5 100 1 5  376
+2) E X U T A R I C E R
+3) L U M E R O G I S A
+4) 7 9100 10 3 4  635
+5) E L A T E N E D A L
+6) B E N E T U N I S E
+7) 6 4 6 1 3 9  599
+8) O N E L E S E K O D
+9) V A S E F E R O L I
+10) 10 3 9 5 2 7  234
+11) E R A C A R A S E G
+12) S I T E R E R O T A
+13) 7 8 8 9 4 50  856
+14) E T O B U N A T I R
+15) T U V O N Y D E R E
+16) 7 5 3 50 8 4  976
+
+1) 1 3 8 75 9 6  746
+2) E C A Q U N U T A M
+3) N A T I C Y Z E P U
+4) 1 1 75 5 5 6  269
+5) I P I Q O V E S U R
+6) B E L E T E S E X E
+7) 6 3 10 4 5 50  237
+8) A S I P U R A D E N
+9) C U N A L I H E V E
+10) 6 7 8 5 2 3  192
+11) U P O S A N A V A M
+12) C O B I F E N E S A
+13) 4 8 4 1 6 2  793
+14) A N A N O S U H E L
+15) T E F O N A L A L A
+16) 1 7 3 100 25 9  835

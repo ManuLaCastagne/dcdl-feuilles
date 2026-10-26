@@ -1,0 +1,208 @@
+1) 4 2 2 8 5 100   421
+2) N A L O L O D I H I
+3) S O N A P U V A C A
+4) 5 10 75 4 4 6   412
+5) S E P I J A R A G E
+6) N E C I H I T U R E
+7) 6 7 5 1 1 10   553
+8) W A R A S E R E N S
+9) V E S A M U L A W A
+10) 3 6 2 4 10 10   249
+11) R U R U M E Q U R E
+12) S A L E C I L E N O
+
+
+1) 5 2 50 2 4 1   876
+2) S U F A T O G E L O
+3) Y N A N A R E J E U
+4) 9 10 75 25 1 3   799
+5) W A H E M O L I N I
+6) S I D I M A R E T O
+7) 75 6 7 50 25 4   732
+8) S E T E B E H A L E
+9) R E M E N I R A T E
+10) 9 2 3 25 7 6   456
+11) S O R E C U T E P O
+12) N U C O T E G O L E
+
+
+1) 10 4 9 1 8 1   179
+2) B E C O T A M E N E
+3) S E R O M E C U Z U
+4) 10 50 6 9 7 1   758
+5) S E H I L O N E L M
+6) L I S A S A S I R I
+7) 8 6 1 5 3 7   511
+8) S I C I R A R A G O
+9) D I T I B A J U C M
+10) 7 8 7 10 3 75   437
+11) F A N I S E S I L E
+12) M I R O S E R E X U
+
+
+1) 5 4 2 50 10 6   869
+2) C O N I L I R I M O
+3) X A W I R A T I S O
+4) 25 3 4 8 6 2   209
+5) B I N U T U N E W E
+6) T E C U D U H Y N E
+7) 4 6 8 1 25 6   550
+8) R E N I R A R O V E
+9) S E T U G E T A D A
+10) 75 10 100 6 3 8   895
+11) G A N E R A N I S U
+12) T I D U N A S E M O
+
+
+1) 6 8 9 7 4 3   354
+2) S O S A J E N O G E
+3) L O G O L I S E P A
+4) 2 1 3 7 4 9   926
+5) S O C U R E N E S F
+6) T U R U F A C O C E
+7) 8 75 50 100 8 3   511
+8) L U R U S I M I J A
+9) S A C O S E S U M E
+10) 3 2 3 10 8 7   163
+11) N A S E L E B E T I
+12) A N E N E S O R O E
+
+
+1) 100 3 5 6 7 25   285
+2) N A T I T I N I H E
+3) R E S O S E D U D I
+4) 7 6 75 6 8 25   773
+5) C I V O M A S E R I
+6) L E N I B E X E Z E
+7) 50 1 5 75 6 10   789
+8) S U R A R I R O T E
+9) M E S E M E N E S U
+10) 7 1 2 5 8 25   399
+11) N U B E P O C E C C
+12) C U S U T A T E T A
+
+
+1) 4 5 7 6 10 5   419
+2) R U T U R O T I N O
+3) L E L I C A C E T E
+4) 25 75 50 9 9 4   589
+5) T E L I R A N E R E
+6) C O R E S A D I T Y
+7) 8 7 4 75 3 1   848
+8) L O S A Z E M E N I
+9) S O R I F E M I T E
+10) 7 8 25 5 1 100   638
+11) W A D I L I P E R E
+12) N E G A V O T A G E
+
+
+1) 4 5 100 3 10 9   187
+2) R A T A C E L U L E
+3) C O D A S O N E R O
+4) 4 6 5 8 50 7   226
+5) L E M I R U M E N E
+6) Z I R U B A M O R I
+7) 2 5 1 2 3 100   690
+8) T E R E G O R O S E
+9) H A B E D U R E Z I
+10) 100 50 6 7 10 5   465
+11) M E N O L A T I L E
+12) R O S U N E S I M O
+
+
+1) 6 8 3 25 7 8   568
+2) R E L A R A G A F O
+3) R A H A R O M A S I
+4) 7 1 3 6 4 2   568
+5) B O L A N U L E T O
+6) S E P O S I G Y R E
+7) 5 3 2 7 4 6   434
+8) R E L I H A L U M A
+9) L E T U T A D E S E
+10) 6 25 4 9 6 1   965
+11) T I B A G O N I H O
+12) S E T I C E J U C O
+
+
+1) 2 5 7 10 100 3   713
+2) C E R O B I N E T E
+3) S E R A C I Q O M A
+4) 3 1 9 9 25 6   290
+5) G A R E V A M O H A
+6) F I R E T A J I D U
+7) 7 4 1 6 3 1   156
+8) L O S U S E T A C E
+9) S A N I C E Z I K A
+10) 4 3 5 2 4 7   269
+11) B A T I S U N I M S
+12) R A N U N E H E K E
+
+
+1) 1 10 9 9 2 2   813
+2) R A S E C E J I N E
+3) Q U F A T I S I C O
+4) 5 1 2 7 8 6   574
+5) M E S O S E V I L A
+6) F U G E C I N E M E
+7) 10 4 3 8 2 8   947
+8) R I R A S I N E D E
+9) L A T I F O T O P I
+10) 1 3 10 9 10 100   611
+11) N E B E S E R I T A
+12) T U Q E M E N O F E
+
+
+1) 1 25 8 7 4 10   449
+2) T E L E S E M E R A
+3) R E T O C E T I N U
+4) 8 3 3 9 2 8   704
+5) R A N I M E B A T I
+6) C I S O R E B I S E
+7) 4 8 1 25 10 5   115
+8) T A P A S U M A S U
+9) O C A S A S E M O I
+10) 2 100 7 7 4 8   251
+11) S I R E L U J U G N
+12) L A V E L U R A L E
+
+
+1) 6 8 50 7 1 4   334
+2) T A K A B E S O N I
+3) N I C E R E S A P O
+4) 8 4 3 5 7 8   915
+5) T I J E H E C A M I
+6) R U T I G E C O S E
+7) 2 1 5 1 6 7   639
+8) B E S E B I S U N E
+9) M A R E R U S U N O
+10) 50 4 25 8 100 6   639
+11) J I T U N E B A V Y
+12) D O R U S O N I L U
+
+
+1) 3 9 2 10 50 1   588
+2) R I N A T A T I G E
+3) R E J I P I D U S A
+4) 25 9 10 100 2 7   817
+5) M A H E L I T U D A
+6) F E P A F A B U S O
+7) 5 6 9 3 7 25   103
+8) S E N A N A L A T E
+9) T Y C O Q E R A B A
+10) 3 9 9 8 8 3   495
+11) C A X I S A L E R I
+12) V E R E S I R A T E
+
+
+1) 3 9 2 7 5 7   275
+2) T E R E R E J A R O
+3) L A N E B E S I L A
+4) 6 10 25 6 3 50   258
+5) L A S U H A D E R U
+6) V O Z U G O S E V Y
+7) 1 7 5 4 1 2   293
+8) R A V E V A R A M O
+9) O D I T I S I L U O
+10) 2 6 7 5 9 5   772
+11) T E S E S E S E N A
+12) P I P E R I C A L A

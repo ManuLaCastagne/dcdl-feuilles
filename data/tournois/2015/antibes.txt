@@ -1,0 +1,123 @@
+1) 6 9 1 5 8 4 708
+2) L E D O S U D E N E
+3) Y S I H A L E M E R
+4) 4 3 5 7 6 8 572
+5) L C S Z A I A I L I
+6) O C E R O L U C E P
+7) 6 6 5 8 10 10 844
+8) D E R E S E R E N P
+9) A V O C I C I H A U
+10) 5 10 75 8 3 9 269
+11) R A R O N O P U T E
+12) I C U S E B A R O T
+13) 5 9 100 1 10 8 964
+14) N E F E G A B I S U
+15) I V U G E S I P O T
+16) 9 1 7 7 8 9 862
+17) R A N A B A N O Q F
+18) E M E S E R E K A A
+19) 7 4 1 3 10 5 841
+20) L E T I R E C A S U
+21) E L A P I R I N I T
+22) 10 6 9 2 9 7 159
+23) S O L E R E X A S I
+24) I F E S O T I P E T
+25) 4 5 25 8 9 6 918
+26) H E N A M U N O B H
+27) E S A W A R E N E R
+28) 2 3 1 5 1 4 768
+29) S I P A C E S U B E
+30) E S U M O S E L E E
+
+
+1) 8 5 7 10 100 7 770
+2) R I S E L E N I R A
+3) I R U B E L A S E F
+4) 6 75 7 9 8 10 165
+5) M A D I S Y R U T A
+6) A H O S E P E S O X
+7) 1 25 5 50 10 1 268
+8) L E C A S E L I T E
+9) E R I S E T E S O S
+10) 7 6 5 25 4 6 342
+11) 9 100 6 1 3 7 514
+12) B E Q U F E R O R A
+13) A G E G O S U J E B
+14) 4 1 8 25 5 10 292
+15) R E M O S O S I L E
+16) A T E S I R A N E P
+17) 1 2 4 3 6 25 220
+18) P A P U B E C A N E
+19) U S E V I T A D E L
+20) 8 1 3 9 75 9 206
+21) 7 8 100 1 3 9 257
+22) B A P Y M O P U R E
+
+1) 4 7 2 7 6 8 918
+2) R E L A N A P E S A
+3) E L O S A S I L O G
+4) 7 9 6 100 5 10 544
+5) R A R I N E T E L U
+6) O K E D E S E L E M
+7) 5 4 8 25 1 5 391
+8) G I C E H E S A Z E
+9) E S E N I F E G E L
+10) 2 75 7 8 6 5 694
+11) 4 7 8 1 10 6 804
+12) N F U A N S I O H U
+13) A U M T I I D T A H
+14) 100 4 2 9 8 10 890
+15) L E R O T O N O F E
+16) O T N I A L N T E O
+17) 10 5 3 6 2 4 909
+18) A V G A E Q R E E S
+19) B I T T E O R L I A
+20) 8 100 4 1 50 75 215
+21) 1 4 7 1 9 7 908
+22) O T E Q U T M N R U
+
+1) 1 4 8 6 75 50 154
+2) O G E C O S E D E N
+3) R A E T N I O D S O
+4) 3 4 6 10 9 1 171
+5) E E N N E C I E F H
+6) Z S A A N R E E P I
+7) 5 100 25 5 10 2 285
+8) I O G M U O S R L I
+9) D B E E L S A A S O
+10) 6 5 10 4 2 8 190
+11) 1 6 9 10 5 8 415
+12) T C P F I U E I P I
+13) E U E E R R C R E D
+14) 6 10 6 25 9 100 328
+15) T B F N E U E A U R
+16) I O Y O S T T T I K
+17) 6 8 75 3 2 4 931
+18) R R S S E O A E V U
+19) E U A L U R N G A L
+20) 6 5 2 4 10 100 504
+21) 4 4 5 1 75 8 922
+22) U M O S A B T S M H
+23) 9 1 10 25 5 1 956
+24) T I H R I C O N Y S
+
+1) 75 5 4 6 8 8 348
+2) S I F E H E R A V I
+3) E N E S I R E S E D
+4) 8 5 10 6 9 75 135
+5) V U L O W E N E R A
+6) O T A C U T A S U L
+7) 1 5 8 100 3 2 816
+8) L E T I N U N A S E
+9) I N I T A L E C A R
+10) 9 6 50 25 1 4 338
+11) 6 2 10 100 2 5 794
+12) S E P I N E L A L A
+13) A S U T U M O R I S
+14) 100 10 7 9 3 50 550
+15) X A R E R I R A F E
+16) E S A S A R E S I G
+17) 50 9 2 10 4 9 399
+18) N O C E H O S E N E
+19) U M O S E N I B E P
+20) 4 5 5 2 50 4 403

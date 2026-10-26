@@ -1,0 +1,157 @@
+1) 6 2 4 100 1 9  229
+2) O C A W A M I S A I
+3) K E P I L E D R D T
+4) 1 2 8 50 4 6  578
+5) O S E M U R A T Y U
+6) E C A P A T O M F L
+7) 6 2 5 100 4 3  130
+8) N E T E Q O S O V P
+9) E Q A L U V O N A T
+10) 3 4 100 8 4 9  340
+11) E R A T O S U C E A
+12) L Y D U S A D E T E
+13) 75 50 10 6 1 6  658
+14) L A H E S U R E N E
+15) E R O T Y R U N E D
+16) 8 10 4 2 3 7  292
+17) O T O T E L O R A N
+18) I R U Z O M E R A M
+19) 6 5 8 9 9 3  753
+20) A M O G U L U H O B
+21) I C A R O L E N E I
+22) 6 6 5 75 9 5  825
+23) E T O H O S E N O F
+24) T A M A L I C I R E
+25) 7 1 5 5 9 6  996
+26) R E H I C U R I U I
+27) M E L U B A Q U T A
+28) 5 7 75 10 2 5  292
+29) S O T A R O G S Q R
+30) A F I V I N E S E T
+
+1) 100 25 3 5 9 75  576
+2) C O L U L I A E A I
+3) A L A F E C E T A E
+4) 9 4 7 4 1 3  224
+5) S E S O S E T U I O
+6) P E R E L U Q U C R
+7) 1 6 4 8 3 50  631
+8) A T O L A N I M A I
+9) S O N U P O M I R A
+10) 7 5 1 5 75 4  950
+11) 50 10 2 9 1 9  541
+12) A P E M I R E M E D
+13) P A N E R E G O L O
+14) 2 6 5 75 10 5  409
+15) I C O T U B I N E T
+16) Y S E C I R A M E I
+17) 75 100 1 10 3 2  873
+18) S O T A T A N E R E
+19) I M I S Y R O S A R
+20) 1 6 8 100 2 5  840
+
+1) 100 9 3 10 75 8  458
+2) P E L E L A Q I O E
+3) L A M E R A E A U E
+4) 25 6 7 75 9 4  261
+5) L U S I X A T R C S
+6) U R I R E R A M N L
+7) 2 7 100 75 10 9  520
+8) V A N U S I T E L A
+9) I N O C A R O F O X
+10) 6 8 1 1 75 50  192
+11) 6 5 6 8 7 50  714
+12) A K E R A M U T U T
+13) N I G A D A L E O A
+14) 5 10 6 5 75 4  618
+15) O W I S E S U N O S
+16) Y R E C A M I N S C
+17) 5 6 7 9 1 10  543
+18) L I P E T O R U N U
+19) L E N A M A T O C O
+20) 7 5 10 4 2 8  202
+21) 3 5 8 10 2 2  187
+22) P U R U S O S O N I
+23) 7 5 3 10 75 6  706
+24) E T E H E R O S O H
+25) 7 100 9 1 9 25  832
+26) A D I L I S O V I E
+27) 4 25 5 1 3 2  643
+28) O G E D I C O S D S
+29) 3 2 5 5 10 25  261
+30) E T E S I L E N A M
+31) 9 3 75 50 8 5  413
+32) I N E R A Z I O U E
+33) 7 75 50 3 1 10  361
+34) D I R O F E Q O R U
+35) 8 5 1 2 8 10  284
+
+1) 25 2 4 5 4 8  804
+2) S A F E P A F U N C
+3) A G I M O Q O S A K
+4) 2 7 8 6 8 7  571
+5) T A L I B I S I Q A
+6) C E C A S O D U J A
+7) 100 5 9 8 8 1  775
+8) F E N E C I R E G I
+9) O R A T T R S N X R
+10) 8 2 7 3 3 75  885
+11) 10 1 10 4 5 25  132
+12) A L E L E R E S T R
+13) O Z U P I S O M A R
+14) 9 25 3 10 75 5  729
+15) M E P E C U N A Y I
+16) A L A D I S I R U T
+17) 1 5 6 4 1 3  909
+18) R A R A R O M A E O
+19) U M I T O N O R A N
+20) 8 1 1 3 9 7  336
+21) 8 3 25 6 9 7  727
+22) U K E Q I S O S E E
+
+1) 9 25 10 1 3 6  412
+2) Y S E R E S O G O L
+3) A R E S E S E D A S
+4) 9 10 8 3 6 9  288
+5) S O K I H U R E U E
+6) U F E N E S U S I S
+7) 75 4 7 5 2 5  834
+8) R O T A N I S U V O
+9) E V U B I X A C U Q
+10) 5 1 6 10 9 3  673
+11) 5 8 3 1 100 10  135
+12) W I V O N O J A U E
+13) M E B A N E S A N I
+14) 7 4 1 9 8 9  126
+15) E T O L A T A S I A
+16) I M U C A T O R S G
+17) 4 7 4 75 5 25  763
+18) M U G E R A A I I A
+19) S I X E M O T I R I
+20) 9 7 6 5 50 75  955
+21) 9 3 8 10 2 1  169
+22) I K E N I F E T E I
+23) 3 25 7 8 9 4  502
+24) U M E L A M E H A C
+25) 50 9 10 7 10 2  594
+26) S O S U S Y M I O O
+27) 7 6 3 25 1 6  826
+28) N E R E T Y T E T G
+29) 25 7 1 5 10 75  271
+30) E F I L E S O N T G
+31) 6 25 5 1 6 75  451
+32) L E N E R O Q E C R
+33) 8 25 6 4 7 100  200
+34) O T I R E L I R I E
+35) 1 1 4 3 8 6  583
+36) R E D A R A T U S I
+37) 4 1 5 1 75 8  282
+38) O S I C O T I T I E
+39) 8 6 2 9 25 1  446
+40) A D E M E S E R A T
+41) 6 2 1 8 2 9  873
+42) D I N Y R O G E N E
+43) 7 50 9 9 1 4  437
+44) A T A S I R A L N R
+45) 50 6 8 1 4 2  248
+46) E V E L E S I L S N

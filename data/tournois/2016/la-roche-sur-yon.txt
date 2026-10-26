@@ -1,0 +1,129 @@
+9 10 2 4 6 7 236
+T U S E R O P O S O
+U R O S E L O L O X
+4 3 75 8 5 2 391
+T E S O G A N I S O
+E S A T E D O N U D
+3 7 1 10 4 8 277
+C R I R E B E R O S
+U N A R A I B E LE 
+9 3 8 9 50 7 294
+5 50 10 8 2 7 697
+S E T U T I C O F E
+U L E T A G E T A P
+2 50 8 4 8 6 875
+G E M E S U L O S E
+I R E S A Q U S O T
+1 75 7 8 10 5 157
+R I L E V I T I S O
+A T O S I B A M O R
+5 10 2 75 100 7 320
+1 5 6 75 9 8 683
+N R A T E L E L I L
+A S E T Y N E R I N
+3 2 1 6 10 7 555
+R C A L I B E J Y S
+Y E S I Z I R I C A
+6 4 9 6 100 2 718
+R A S A L A F E M O
+Z U M E B U L E R
+10 8 2 4 25 9 896
+
+Match 1 :
+1 5 6 7 4 6 490
+S O B I T A R E P E
+U S U S A L I L E R
+50 5 1 10 10 1 143
+D O F E Z E M A L U
+I L A N I R A D O R
+10 2 100 5 9 50 864
+R S I R E B E T E S
+A D E M E O R I T O
+9 3 1 10 5 50 371
+F U C I T A S A C A
+U G T E M A R O D E
+
+Match 2 :
+4 9 9 7 3 5 342
+W A R E S I M U C E
+I N E F A M I S O L
+1 9 3 8 9 1 496
+R E S I S E M A N I
+A S O S I R E X E T
+6 9 25 3 10 8 141
+L I T E C O C E T E
+A P U S A N A C E C
+3 4 50 4 75 6 555
+C O G A N E C E R U
+O S I B A L E C O L
+
+Match 3 :
+6 50 10 9 3 2 684
+S E S T E C O B O S
+E U H U T I V U T A
+3 1 10 75 7 6 454
+T A R Y R E P E M E
+I Q I S E T E L U D
+5 9 2 8 6 4 683
+S U C I R O M E F A
+O T E D E T E S E C
+8 2 4 3 5 9 791
+S E M E R I R I R E
+I S A M A T O S U S
+
+Match 4 :
+4 7 9 2 2 9 499
+F U S I X E T A S I 
+A N U T I B U N U R
+5 10 8 7 6 5 483
+M O N O B U N Y F E
+E G A C O C I F O S
+1 25 10 3 75 100 928
+G U R E F U F O S O
+O S A T I S E N A B
+5 100 4 5 4 2 761
+S E D A M O N A T U
+I C O Z E J U L I N
+
+Match 5 :
+4 3 9 7 1 5 627
+F E N E V E R U R I
+E C O T I S I L E R
+50 2 3 2 9 4 364
+B E S A T O S I C O
+O S E C O S A G E C
+8 7 7 6 75 10 706
+R U B E R E P E S A
+V I O B E R E S O S
+7 9 5 6 1 8 520
+R A L A S U T A T I
+O C A H E S E V I M
+
+Match 6 :
+9 10 2 4 25 6 684
+S E S A T T A S I T
+U B O N E M O N E S
+9 25 10 10 75 8 859
+Q E H U D E S O E X
+A J U D O P O N I L
+9 8 25 8 3 9 957
+M U L E T I N I S E
+E L O D E G E L I W
+3 100 6 25 1 9 683
+N E G E X I P R T N
+E B A L I S O N E H
+
+Match 7 :
+1 1 6 75 2 2 468
+N O L O N U R A D U
+E B E S E Q A N E R
+1 7 25 3 5 4 854
+M U M E T E S E S E
+A S E R I T Y R A R
+7 6 6 75 9 2 188
+L A S I K E R O R I
+I P E D E C A F E T
+75 1 1 9 5 6 592
+N I M A V E S E F A
+A N A C A D I W O M
+

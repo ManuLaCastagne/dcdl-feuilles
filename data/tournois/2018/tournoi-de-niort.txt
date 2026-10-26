@@ -1,0 +1,115 @@
+1) 10 75 8 4 50 2 922
+2) R I T U Q E R E T I
+3) T D E X I M I T O N
+4) 10 5 8 4 9 2 181
+5) S O S U D E N E R O
+6) A E L U R O T A F E
+7) 3 75 2 8 7 50 652
+8) T I S I L A S O X A
+9) H S A S O C A J A R
+10) 3 8 1 2 9 3 729
+11) R U F A F Y D E W E
+12) N A O L A N A C I V
+13) 1 10 50 75 7 8 354
+14) X A N E S U C E L I
+15) M S E P U M I P I R
+16) 6 3 6 8 7 4 103
+17) L O R O M U C U C E
+18) E E S I L B I I Q A
+19) 1 9 4 2 75 7 107
+20) F O T E S E F E T O
+21) M C I N E W E R U G
+22) 5 3 7 25 2 1 946
+23) R E C O R A S E R O
+24) A U N E C I R I B I
+25) 8 5 9 50 4 2 938
+26) S A K E S I S E F I
+27) F R A T A R U M O J
+28) 4 5 1 3 4 9 622
+29) S A N E R U S O L I
+30) C B O S A R A G E L
+
+Match1
+1) 6 10 7 1 4 2 941
+2) T E N A R O N I N I
+3) S R A T I R I B E R
+4) 9 4 5 50 6 8 832
+5) G O N A N U L O V I
+6) E A L O P O M E S E
+7) 6 2 1 4 3 5 671
+8) R A N A M I C O V O
+9) J T I M U G A N I Q
+10) 7 4 10 2 1 10 837
+11) V O L O T O L A S U
+12) S O E R U K O R E M
+
+Match 2
+1) 3 2 50 100 75 9 849
+2) T I D E C O S O S O
+3) Q R I R E R O T E S
+4) 3 100 10 3 75 50 810
+5) Z I T E N E G U S E
+6) U E T E S O P E R A
+7) 7 1 3 4 5 10 797
+8) S O Q E R A N U J O
+9) S R A M E D I R O M
+10) 6 100 10 9 5 3 451
+11) R E V O L I S I M O
+12) I I N E V O F A C I
+
+Match 3
+1) 6 5 6 4 9 2 504
+2) T E N O O C M E P I
+3) C M E N E T E H A R
+4) 5 50 2 10 9 3 978
+5) S U S E G A N E N O
+6) I O L A S E R A R O
+7) 5 100 7 25 10 8 947
+8) N I S I R E S A F E
+9) T T O F I Q E T U L
+10) 50 5 6 7 10 3 610
+11) S E G O L E N E M O
+12) E E F E H A S O T Y
+
+Match 4
+1) 7 5 10 1 8 50 464
+2) H E L U L O M I S I
+3) L L I F A E I T Y R
+4) 5 7 50 7 5 8 993
+5) C A N O G I N U S U
+6) E A N I C E S E M A
+7) 75 50 4 25 9 1 261
+8) N A S E L I M I L I
+9) M R E S E R E N O V
+10) 8 2 10 7 4 8 119
+11) L E G E F O S E L I
+12) U A R I L O K E B I
+
+Match 5
+1) 8 75 7 8 5 4 351
+2) R A N I G I S A S U
+3) R G I N E S E R E T
+4) 1 8 10 9 7 7 762
+5) M A R U L U N A T A
+6) G E O K U L O L U E
+7) 9 10 2 3 5 5 971
+8) R O F O M E R E L I
+9) R T O S E T U N E W
+10) 6 5 5 8 6 2 631
+11) R O T A B I T O F E
+12) A E Z I G E L A R E
+
+Match 6
+1) 7 8 4 7 10 5 454
+2) R E S E R E R I S I
+3) T L I R I S U Z E S
+4) 5 9 100 7 2 9 131
+5) Z E T I R U S E L U
+6) E U Q A B I T O S O
+7) 8 10 4 4 8 10 602
+8) S E N I L U Q O R E
+9) W T U R I T E N I S
+10) 7 6 10 10 9 100 659
+11) C A T E C E R A T A
+12) A U R U G E T E S E
+

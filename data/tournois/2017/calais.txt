@@ -1,0 +1,122 @@
+2  7  8  10  6  100  944
+E G U N O R O N I T
+C U Q U D U R E X A
+75  1  5  5  10  8  784
+A R E N E M E P A D
+T E S I L E P I W A 8
+6  3  2  9  7  6  363
+I N U V I S E D E D
+S I C E R A S E T I
+5  5  9  10  6 4  986
+10  25  3  9  5  7  392
+E C A C A T I B A F
+C E T E B I L E T O
+1  2  75  6  25  100  147
+A D U M I P E N U N
+N I D U D E N E N I
+1  4  6  2  5  9  418
+I T E Q I R E H E N
+N E H E V O L I H A
+1  7  2  4  100  4  638
+2  3  10  10  5  25  927
+E L E C E C E M O P
+N U N E D E L U T E
+10  4  9  5  10  3  650
+N N E R O H E D E N
+C E D E M U R A V I
+10  10  3  8  6  8  137
+E M E B A L Y D E S
+E E T E T A G E N O
+5  75  9  50  7  10  107
+
+1) 6 75 100 9 4 1 141
+2) U T U S O S I N A R
+3) G A M I D I R A B O
+4) 9 4 5 6 7 1 666
+5) U L O P E H I C E M
+6) S I L O G O N A K A
+7) 4 1 100 1 5 10 835
+8) H S U S O N I B E L
+9) M E C E L U W A N O
+10) 3 5 50 8 10 10 149
+11) 3 5 4 1 10 7 678
+12) U D O T A T I N E L
+13) D O G O M Y C E D A
+14) 6 10 10 1 50 2 376
+15) E N O L O P U M U Z
+16) D E M Y F E S E H A
+17) 1 75 100 3 9 2 724
+18) I D E D U T U S E N
+19) S E P I F E S E S A
+20) 75 6 4 5 9 9 279
+
+1) 7 2 8 25 75 50 238
+2) Y G U D U M E L I G
+3) R O N A V O P O R A
+4) 9 10 4 4 100 7 409
+5) E S A N A T A S E B
+6) X A Q O D A P E S O
+7) 2 3 9 8 10 8 891
+8) N D I N I R E C E N
+9) E E N U D A R A R U
+10) 75 25 5 7 9 100 203
+11) 1 25 4 8 4 75 935
+12) A L I C A M I R U T
+13) L O P E L I F E T E
+14) 25 100 9 7 3 2 194
+15) E N O N O L E F A N
+16) R E X E S I T I D E
+17) 25 5 75 7 4 100 121
+18) I T I V O C O P U H
+19) N E R U M E P I R O
+20) 4 4 8 8 3 5 603
+21) 3 2 1 7 6 100 389
+22) I T E N E N E R E N
+
+1) 2 8 7 25 8 100  721
+2) E M I C O M E N U V
+3) S O N U S E L A N U
+4) 5 10 8 1 1 3 833
+5) U T I C I L U R A N
+6) N I S O M A M I Z E
+7) 50 5 7 100 8 3  360
+8) H N E C O M A R E R
+9) U E B E C A P A N O
+10) 1 50 7 4 10 2  846
+11) 3 8 75 25 8 5  507
+12) O J E P U B E N E M
+13) L E T E L I C U L A
+14) 10 6 8 7 10 50  837
+15) U N I D O R I G E V
+16) S Y F O L A B I R U
+17) 10 1 5 4 25 3  476
+18) E L E N E F I R A F
+19) G E D E H O M O L U
+20) 100 9 3 10 1 5  811
+21) 7 4 9 8 2 9  620
+22) E S O K U X I F O B
+23) S E F E S U T E N O
+24) 1 1 4 100 6 25  794
+25) E C I D E T E S E S
+26) L E T E P E N O P A
+
+1) 4 5 8 1 4 9  850
+2) E S E B E Q O S O N
+3) T I S O S A G E L E
+4) 3 8 7 7 25 6  942
+5) E N E M I N I L E S
+6) F E L O N I V O C E
+7) 2 9 7 1 6 100  171
+8) G G E N O D E S U R
+9) A O C I T O S A S E
+10) 9 3 8 6 7 6  215
+11) 3 2 100 2 4 75  101
+12) I S E V I S A M U M
+13) M U C I N I D U H O
+14) 3 1 5 100 9 7  477
+15) N G O S E N E P E H
+16) O U R E N I T U R A
+17) 2 1 25 9 7 1  864
+18) E T U N U L I R U P
+19) Q I B A S I F A Z E
+20) 8 10 7 6 2 100  159

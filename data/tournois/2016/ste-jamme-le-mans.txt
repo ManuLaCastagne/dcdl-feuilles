@@ -1,0 +1,34 @@
+CB / Meilleure approche: 10 points
+Approche à 1 : 8 points
+
+
+5 8 7 3 6 100 695
+I C E C U M E L O M
+N I S I M U N U G O
+9 6 25 2 10 7 125
+U T I L U P A G E L 
+T A L A B E P A L A
+3 4 7 9 10 4 928
+U G A L A D I L A N
+N E R E R U H I N I
+7 10 1 2 4 5 75 474
+2 6 75 1 7 9 698
+U N I L E D O L I Q
+S E S O T O L E N U
+10 2 10 3 100 5 445
+E S E G E Q E S I C
+P E C E R O R E P E
+8 100 9 3 75 9 422
+U T E D E B E B O M
+R A R E S U R A R O
+4 8 7 3 6 1 422
+10 2 6 4 1 7 736
+T N E V E T E R A S
+B O D I M E T O N E
+7 4 8 5 1 6 816
+E R I T A M O M I D
+E A L U C O D E R I 
+6 3 8 1 7 100 566
+O S E B E T E S O R
+T E V E J A T U N E
+100 1 3 10 50 2 886

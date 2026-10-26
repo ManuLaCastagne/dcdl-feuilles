@@ -1,0 +1,129 @@
+1) 6 10 1 10 7 9   277
+2) M I R O L A P I J U
+3) S O R I Q A R A N E
+4) 1 6 9 1 7 2   885
+5) S E L O R A F U T E
+6) L E S A C E F E R I
+7) 9 8 6 7 25 6   300
+8) S I S Y H I R E T M
+9) A C O G U L A M I A
+10) 3 8 5 1 25 10   963
+11) V I S A P I J A N I
+12) S E S I S U R O T U
+13) 6 2 10 8 50 5   375
+14) L O H E L O N I N E
+15) C A S U D I N A C A
+16) 25 10 2 3 6 9   913
+17) T I T I N O S E S P
+18) I F A C E G U Q E I
+19) 75 2 10 6 3 25   382
+20) T A C O B O S E L A
+21) K I L E D E N I F I
+22) 6 5 50 1 100 25   286
+23) R E M E L O P O B A
+24) D E R O N E D U T O
+25) 10 9 1 7 5 5   895
+26) R E R E L A W E C S
+27) I R E T A T U T U E
+28) 25 4 50 3 7 2   798
+29) G E P I M A T E S Y
+30) N O L U B E N I R A
+
+
+1) 2 50 5 8 5 8   107
+2) S A T I N E D U L E
+3) Z E S E M E R I F E
+4) 6 2 7 3 1 8   464
+5) B A T E S E G A R A
+6) R E L E M E L I H O
+7) 7 1 50 6 9 10   880
+8) L A S U K E S A R M
+9) O P I H A N I R A I
+10) 6 10 1 2 1 5   215
+11) 8 5 4 9 1 6   955
+12) T I F U N E R Y T U
+13) L I C E N E R O T A
+14) 3 8 3 8 7 100   338
+15) S O C A M U L E C E
+16) N E S E R U X I W A
+17) 7 4 2 75 1 50   368
+18) Q O N E B I Z I S P
+19) I L O T U N O T O A
+20) 6 2 25 1 50 9   379
+21) 7 1 3 2 6 5   858
+22) B A S A D O N U M O
+23) R A D E N A L U N E
+24) 8 9 9 10 10 100   355
+
+
+1) 8 3 1 5 8 6   308
+2) L O D I T I N E R U
+3) N I L O H A L A T A
+4) 1 4 25 2 3 7   105
+5) K E T I T E D I P I
+6) P E C E R E S I B U
+7) 5 1 75 25 4 6   569
+8) T I C O R E M E T M
+9) U N U M I S E H I E
+10) 8 8 25 3 2 10   689
+11) 2 7 5 1 25 9   827
+12) V U S I L E R I R I
+13) C A D I G A Q A L E
+14) 50 6 10 8 9 6   311
+15) S A P O T I C E S A
+16) L I N E D E T A S E
+17) 2 25 3 10 6 75   782
+18) G E T E R A R U M S
+19) O N E S E R E N E O
+20) 100 3 9 6 9 3   205
+21) 5 5 100 25 4 4   959
+22) T E M I R A S E T C
+23) T I R E P E T A L E
+
+
+1) 1 3 6 10 8 9   634
+2) S A Z E N O L Y N E
+3) M E L E S A S A P A
+4) 9 6 6 1 10 75   789
+5) T I S E R I L I S E
+6) D I S O D E T A P I
+7) 8 6 25 5 6 1   839
+8) Z I L U D O N A C R
+9) U H U G O T E T E O
+10) 7 5 10 4 3 2   459
+11) 4 7 25 9 7 6   925
+12) L I S O S I F I M O
+13) K U T E S E N I S O
+14) 75 7 10 9 100 1   571
+15) L E R I M E R U S U
+16) N O R I M O T I T E
+17) 50 5 2 7 6 9   465
+18) N I L I D E K I T T
+19) E R O J I R A N Y O
+20) 2 5 9 9 2 6   311
+21) 9 10 9 8 100 50   631
+22) C U F A S O K I D H
+23) A L E P E R I L U E
+
+
+
+1) 6 3 10 2 75 2   323
+2) T A P U S A B A M E
+3) M O N I M O S I N E
+4) 8 9 10 6 50 7   275
+5) N A L A S E F E S E
+6) S A R E S E N O C O
+7) 8 1 5 2 25 10   364
+8) K O T A L E S E T M
+9) O Q U T I C E M E E
+10) 2 4 8 3 1 10   502
+11) 5 9 5 3 4 7   833
+12) R E V I H A L U T A
+13) G A N O M I S O N O
+14) 3 9 1 75 3 1   589
+15) R I T A T I S A R I
+16) R U T U T U N E L E
+17) 1 8 2 5 1 7   350
+18) S E R I F E C O T G
+19) O R U C E R O R U I
+20) 2 5 9 9 2 6   311

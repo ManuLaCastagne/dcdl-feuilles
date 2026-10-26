@@ -1,0 +1,160 @@
+CB : 10 pts 
+ ŕ 1 prčs : 9 pts 
+ ŕ 2 prčs : 8 pts 
+ ŕ 3 ou 4 prčs : 7 points
+ ŕ 5 ou 6 prčs : 6 points
+ ŕ 7 ou 8 = 5 points
+ ŕ 9 ou 10 = 4 points
+ de 11 ŕ 20 = 3 points
+ de 21 ŕ 50 : 2 pts
+ + de 50 : 1 point
+ Erreur : 0 point 
+ Pour les comptes infaisables :
+ Meilleure approche : 10 points
+ Autres : barčme ci-dessus
+ TOP : 256
+ Tirages du Duplicate 
+ 1) 7 2 3 8 50 10 446
+ 2) A V I H E T U G E M
+ 3) K E S O Z I L U B O
+ 4) 5 7 75 1 1 2 345
+ 5) U N E W U T E R I L
+ 6) T E X E S E L E V A
+ 7) 5 6 3 10 1 4 136
+ 8) E Q E N U M U C O D
+ 9) L E R I R E C A S I
+ 10) 6 25 50 10 4 9 666
+ 11) 3 5 6 25 8 7 747
+ 12) O N I B E G U F I S
+ 13) M O S O M E P I H E
+ 14) 8 50 6 100 9 8 107
+ 15) R F E B U N A B I S
+ 16) O A F E S U N U R A
+ 17) 50 8 5 75 3 9 385
+ 18) U C E N I S A D E S
+ 19) L Y R A F O D I N I
+ 20) 9 6 4 9 2 6 353
+ 21) 6 9 4 6 50 5 196
+ 22) I V O R I V U M E B
+ 23) N A H O R E L I B E
+ 24) 7 2 50 4 6 4 624
+ 25) I S O N U S U S A S
+ 26) S E G I G E S U N E
+ 27) 3 25 8 4 100 2 936
+ 28) O Q A N I T O N O D
+ 29) M E D E D A N A T A
+ 30) 2 1 4 7 5 9 768
+
+
+ Tirages des 1/8 finales
+
+ 1) 9 8 50 3 5 3 215
+ 2) A N I D E Q A V O S
+ 3) V I D A M I F U M E
+ 4) 9 6 4 7 8 5 763
+ 5) E S E N E C E Z I N
+ 6) N I S O T O L E L E
+ 7) 9 5 4 1 9 50 978
+ 8) E T U P E S E T E N
+ 9) L O C O C U B U B A
+ 10) 5 2 100 75 8 4 207
+ 11) 9 8 5 6 3 50 985
+ 12) E R E B E R I N U T
+ 13) M I N U L E T E S E
+ 14) 9 50 1 3 5 6 391
+ 15) U F I V I R E H E L
+ 16) R E X E R E N A M U
+ 17) 5 3 8 9 25 2 348
+ 18) A V E D E S E S E G
+ 19) L O C A S E T E R O
+ 20) 8 5 2 25 10 100 123
+
+ PROLONGATIONS
+ 21) 6 6 7 4 2 9 679
+ 22) A T A D A M I D O T
+
+
+ Tirages des 1/4 Finales 
+
+ 1) 100 2 25 7 8 4 708
+ 2) E L E G A R E C U S
+ 3) L I S U C I S A M I
+ 4) 7 50 4 4 75 2 737
+ 5) A F O N E W E D I N
+ 6) X A P A D E M A T O
+ 7) 8 10 10 7 8 9 211
+ 8) U R I S A C E N U T
+ 9) L A P I N A S E P E
+ 10) 1 8 10 9 10 100 599
+ 11) 2 9 10 100 50 8 938
+ 12) U Q O L U R A X E N
+ 13) D O B E M I Z U S E
+ 14) 6 10 9 7 8 2 319
+ 15) L L U F A V E N I D
+ 16) G I D I S E N E B E
+ 17) 4 6 8 100 50 25 597
+ 18) E T E C U T E B I R
+ 19) O U M A N A F I R E
+ 20) 1 1 10 2 50 4 928
+
+
+
+ Tirages des 1/2 Finales 
+
+ 1) 4 2 5 9 75 25 348
+ 2) A L E R E N A N I N
+ 3) S U F I Q E T I H I
+ 4) 6 3 4 10 2 50 136
+ 5) U R E T U R E R E D
+ 6) L E F E T E V E L A
+ 7) 1 3 25 6 6 2 872
+ 8) E T I S E L O B E H
+ 9) P I L E N I H E F U
+ 10) 10 3 10 7 2 50 193
+ 11) 2 5 7 50 5 8 791
+ 12) I D U M O S I R E V
+ 13) C O T U H U R I T U
+ 14) 5 7 1 2 6 10 576
+ 15) E R E L I T U R A D
+ 16) B E L E V E M I C E
+ 17) 8 1 2 50 25 8 378
+ 18) E N E S U R O N U L
+ 19) G U V O J E S E T A
+ 20) 3 50 7 5 9 2 561
+
+ PROLONGATIONS
+
+ 21) E N U T U D A V A T
+ 22) 50 6 75 2 8 5 390
+
+
+ Tirages de la Finale 
+
+ 1) 5 2 6 25 8 1 689
+ 2) A G I N E S E B I S
+ 3) R E S I J E T O G E
+ 4) 1 6 5 9 25 3 255
+ 5) A N E N A R U S A R
+ 6) T E C O D E L U M O
+ 7) 5 7 100 75 2 50 423
+ 8) E T O S I D I L E R
+ 9) T E N E P I D E M O
+ 10) 6 10 1 75 5 4 839
+ 11) 3 5 3 25 100 50 894
+ 12) O L E T E N I D A J
+ 13) R O S E T I V E F E
+ 14) 9 25 6 8 5 75 720
+ 15) E L E R E T A S O S
+ 16) T E M O T O T O C E
+ 17) 2 8 7 4 4 6 933
+ 18) N B E P U D I K U T
+ 19) O I R E L E N A R I
+ 20) 4 1 10 2 3 8 802
+
+
+ PROLONGATIONS
+
+ 21) 75 3 4 1 10 7 498
+ 22) U S U S E S E N E N
+ 23) 100 2 5 5 8 9 306
+ 24) S A L I X O D O F I

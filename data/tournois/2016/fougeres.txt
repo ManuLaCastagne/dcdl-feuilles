@@ -1,0 +1,30 @@
+1) 1 4 6 100 7 2   813
+2) E G O R E D E M E D
+3) L E N A L O S I D E 
+4) 5 8 2 75 3 8  592
+5) E N E Q I R A R E L
+6) N Y M U C E F I F U
+7) 2 3 9 5 4 9  818
+8) A F E Q E N O S A T
+9) S O M A T O L E V E
+10) 3 7 50 25 9 3   853
+11) 5 5 1 1 2 9   836
+12) T L I L A M U S I R 
+13) S A S O N U R I S E
+14) 8 9 7 6 25 3  522
+15) A S E B I S I M A R
+16) E V E Z E G O L E S
+17) 5 8 7 10 50 25  660
+18) U X E V U S I R U R
+19) N U C E N A T A N O
+20) 1 9 6 3 75 2   161
+21) 5 2 9 3 100 6   827
+22) N I M I G O T A M E
+23) E S O H E N E T O D
+24) 10 8 2 2 100 1   553
+25) A Q A G U N A T A N
+26) Q A V E N I C O R E 
+27) 10 3 1 5 8 5  141
+28) U I R A H U P I D O
+29) T O L E S E D U T L
+30) 2 4 1 10 3 9   273 

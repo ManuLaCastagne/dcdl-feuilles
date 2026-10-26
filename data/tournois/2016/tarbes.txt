@@ -1,0 +1,116 @@
+1) 100 7 9 10 1 3 554
+2) A B E M A V A V O B
+3) C E F U T E C O I A
+4) 5 8 1 3 5 7 126
+5) O G Y R E D A R O L
+6) E N I D E T E T O N
+7) 5 1 50 6 2 10 641
+8) O C I N I T U S E E
+9) R I N O F E M E R B
+10) 5 6 10 100 2 3 510
+11) R E T A S U P E T E
+12) E H U T A N A S E M
+13) 6 5 6 7 10 2 181
+14) S U L I K U N E D A
+15) A S I T U Z A B I T
+16) 50 6 3 25 100 9 714
+17) Z E L O V I T A R A
+18) M I M A R E F E N I
+19) 3 10 75 6 25 4 227
+20) O L E D A S E G I C
+21) D E C O R E B E R A
+22) 10 2 3 5 100 5 736
+23) I B O L U R U T I T
+24) S E S E R A N E S I
+25) 2 25 75 10 2 50 926
+26) O T A C I R O S E I
+27) E S I S O B E T I R
+28) 3 100 3 10 5 1 149
+29) P U R E S Y C O U E
+30) O S O T E R A H E I
+
+1) 9 2 8 2 7 10 659
+2) N I X E N E T I S I
+3) N E T I T I V I C E
+4) 1 4 10 10 6 50 401
+5) E K U S E D I R E U
+6) O P U D A T A T E E
+7) 75 9 7 5 2 1 653
+8) C U F U L I S I F A
+9) D E T U P U B E E E
+10) 3 9 6 5 7 6 150
+11) 1 1 4 9 3 10 499
+12) I N I K O S E G I T
+13) E H E Z U L O R I N
+14) 1 1 100 8 5 6 363
+15) S A C U L E Q O I I
+16) N Y L A S E T A I O
+17) 4 2 1 6 10 6 176
+18) N O N A T I B I A E
+19) D E M E S A B E Q E
+20) 9 5 2 7 5 6 734
+
+1) 2 10 8 1 5 10 290
+2) E S U G E N O M A Q
+3) U N O H U N I J E L
+4) 8 6 6 8 9 1 951
+5) I P E S A L U R I C
+6) E T O R A D I N A E
+7) 100 6 3 5 7 5 377
+8) S E T A B E L I H S
+9) T I N I S E D E N U
+10) 9 50 8 1 10 6 830
+11) 3 8 1 25 50 4 957
+12) O K E N E M U T Y L
+13) V U B U R E S T N B
+14) 4 7 8 2 50 10 642
+15) T O R I N E S E P O
+16) S O Z A C E S I R O
+17) 2 1 8 10 7 4 619
+18) E C I T I T A N E A
+19) G E L E R O T O T A
+20) 2 5 2 1 6 4 538
+21) E R U V U P E T L F
+
+1) 100 10 50 9 6 9 732
+2) T E R I K U S E V O
+3) L E F E R O R E S U
+4) 50 2 5 8 4 8 380
+5) T E Q A C A H E H N
+6) C I S E Z E V I T O
+7) 50 9 7 3 1 10 214
+8) A N U N E T O S I M
+9) A D E N I L I S U D
+10) 9 5 7 8 10 8 199
+11) 4 6 9 9 3 2 470
+12) A J E D U P O R E R
+13) E R O T I C I R A E
+14) 5 3 8 8 1 5 904
+15) S I N O T U S U N A
+16) E L O R U T E B E F
+17) 4 2 6 9 9 7 294
+18) U R A C E F I W E S
+19) M A R U S A R I L T
+20) 1 50 6 3 4 4 132
+21) O N E G U G O H E I
+
+1) 7 75 1 9 5 2  312
+2) E M E M E M E N L R
+3) C O L E C U N U F A
+4) 100 1 75 50 6 3  195
+5) R O N O V I S A S I
+6) U S I T I M E P H C
+7) 7 2 7 6 100 75  396
+8) I R A W I N E L E E
+9) O L I C O X I D U L
+10) 1 50 1 6 7 9  512
+11) 10 4 7 9 4 8  766
+12) R E M Y J I B E D U
+13) G E K U R I R E E A
+14) 10 9 5 4 3 1  772
+15) E Q I R I L I R E S
+16) R E M I M A A I I O
+17) 2 2 5 8 7 1  172
+18) S A T O K U C E U A
+19) I S I L O R O H A T
+20) 1 8 9 9 2 100  178
