@@ -5,7 +5,6 @@ import re
 import sys
 import time
 import unicodedata
-import xml.etree.ElementTree as ET
 from urllib.parse import urljoin, urlparse
 
 import requests
@@ -29,10 +28,6 @@ HEADERS = {
 
 session = requests.Session()
 session.headers.update(HEADERS)
-
-XML_NAMESPACE = {
-    "sm": "http://www.sitemaps.org/schemas/sitemap/0.9"
-}
 
 
 # ---------------------------------------------------------
@@ -100,16 +95,19 @@ def save_index(index: dict):
 # ---------------------------------------------------------
 
 def parse_xml_locations(xml_text: str) -> list[str]:
-    root = ET.fromstring(xml_text)
-
-    locations = []
-
-    for loc in root.findall(".//sm:loc", XML_NAMESPACE):
-        if loc.text:
-            locations.append(loc.text.strip())
-
-    return locations
-
+    """
+    Extrait les URL contenues dans les balises <loc> d'un sitemap
+    sans dépendre de xml.etree / pyexpat.
+    """
+    return [
+        url.strip()
+        for url in re.findall(
+            r"<loc>\s*(.*?)\s*</loc>",
+            xml_text,
+            flags=re.IGNORECASE | re.DOTALL,
+        )
+        if url.strip()
+    ]
 
 def discover_article_sitemaps() -> list[str]:
     """
