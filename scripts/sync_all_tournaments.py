@@ -459,6 +459,7 @@ def sync_all(
         exist_ok=True,
     )
 
+    # Charge l'index existant
     index = load_index()
 
     print()
@@ -466,17 +467,40 @@ def sync_all(
     print("SYNCHRONISATION CLUB DCDL")
     print("=" * 65)
 
+    # Récupère tous les articles actuellement présents
+    # dans les sitemaps Over-blog
     articles = discover_articles(
         from_year=from_year,
         to_year=to_year,
     )
 
+    # -----------------------------------------------------
+    # On compare avec les articles déjà connus
+    # -----------------------------------------------------
+
+    known_articles = index.get("articles", {})
+
+    if not force:
+        new_articles = [
+            url for url in articles
+            if url not in known_articles
+        ]
+    else:
+        new_articles = articles
+
     print()
+    print(f"{len(articles)} article(s) dans les sitemaps.")
+    print(f"{len(known_articles)} article(s) déjà connus.")
     print(
-        f"{len(articles)} article(s) "
-        "présent(s) dans les sitemaps."
+        f"{len(new_articles)} nouvel/nouveaux "
+        "article(s) à analyser."
     )
     print()
+
+    # Rien de nouveau : on s'arrête immédiatement
+    if not new_articles:
+        print("✓ Aucun nouvel article à synchroniser.")
+        return
 
     counters = {
         "tournament": 0,
@@ -485,12 +509,16 @@ def sync_all(
         "error": 0,
     }
 
+    # -----------------------------------------------------
+    # On ne parcourt QUE les nouveaux articles
+    # -----------------------------------------------------
+
     for number, article_url in enumerate(
-        articles,
+        new_articles,
         start=1,
     ):
         print(
-            f"[{number}/{len(articles)}] "
+            f"[{number}/{len(new_articles)}] "
             f"{article_url}"
         )
 
@@ -502,9 +530,9 @@ def sync_all(
 
         counters[result] += 1
 
-        # Sauvegarde progressive :
-        # si on interrompt le script, on ne perd pas
-        # tout ce qui a déjà été analysé.
+        # Sauvegarde après chaque article.
+        # Même si on arrête le script, la progression
+        # n'est pas perdue.
         save_index(index)
 
         time.sleep(0.2)
@@ -525,11 +553,6 @@ def sync_all(
     )
 
     print(
-        f"Déjà examinés : "
-        f"{counters['already_checked']}"
-    )
-
-    print(
         f"Erreurs : "
         f"{counters['error']}"
     )
@@ -540,7 +563,6 @@ def sync_all(
         f"Index : "
         f"{INDEX_FILE.relative_to(ROOT)}"
     )
-
 
 # ---------------------------------------------------------
 # CLI
