@@ -7,7 +7,14 @@ import streamlit as st
 from dcdl.models import SheetOptions
 from dcdl.parser import parse_manual, draws_to_text
 from dcdl.randomizer import generate_random
-from dcdl.lists import list_files, load_file, sample_draws
+from dcdl.lists import (
+    load_file,
+    sample_draws,
+    word_categories,
+    draw_files,
+    rajouts_files,
+    weighted_revision,
+)
 from dcdl.tournaments import (
     tournament_years,
     tournaments_for_year,
@@ -126,7 +133,48 @@ def build_filename():
                 name += f"_seed{seed}"
 
         return safe_filename(name) + ".pdf"
+    
+    # --------------------------------------------------------
+    # RÉVISION ALÉATOIRE
+    # --------------------------------------------------------
+    if source_type == "Revision":
+        n = info.get("n", "")
+        seed = info.get("seed")
 
+        name = f"Revision_{n}_mots"
+
+        if seed:
+            name += f"_seed{seed}"
+
+        return safe_filename(name) + ".pdf"
+
+    # --------------------------------------------------------
+    # TIRAGES ENREGISTRÉS
+    # --------------------------------------------------------
+    if source_type == "Tirages":
+        selected_file = info.get(
+            "file",
+            "tirages",
+        )
+
+        stem = Path(
+            selected_file
+        ).stem
+
+        name = f"Tirages_{stem}"
+
+        n = info.get("n")
+
+        if n:
+            name += f"_{n}_tirages"
+
+        seed = info.get("seed")
+
+        if seed:
+            name += f"_seed{seed}"
+
+        return safe_filename(name) + ".pdf"
+    
     # --------------------------------------------------------
     # ALÉATOIRE
     # --------------------------------------------------------
@@ -217,6 +265,7 @@ source = st.segmented_control(
         "✍️ Manuel",
         "🏆 Tournoi",
         "📚 Liste",
+        "🎯 Tirages",
         "➕ Rajouts",
         "🎲 Aléatoire",
     ],
@@ -335,122 +384,548 @@ elif source == "🏆 Tournoi":
 
                 except Exception as e:
                     st.error(str(e))
-
 # ============================================================
-# LISTE / RAJOUTS
+# LISTES DE MOTS
 # ============================================================
 
-elif source in ("📚 Liste", "➕ Rajouts"):
+elif source == "📚 Liste":
 
-    files = list_files(LISTS)
-
-    rel = [
-        str(path.relative_to(LISTS))
-        for path in files
-    ]
-
-    selected = st.selectbox(
-        "Fichier",
-        rel if rel else ["Aucun fichier"],
-    )
-
-    selection_mode = st.radio(
-        "Mode de sélection",
+    revision_mode = st.radio(
+        "Mode d'entraînement",
         [
-            "Toute la liste",
-            "Sélection aléatoire",
+            "Liste précise",
+            "Révision aléatoire",
         ],
         horizontal=True,
     )
 
-    # Ces paramètres n'apparaissent que
-    # pour une sélection aléatoire.
-    if selection_mode == "Sélection aléatoire":
+    # --------------------------------------------------------
+    # LISTE PRÉCISE
+    # --------------------------------------------------------
+
+    if revision_mode == "Liste précise":
+
+        categories = word_categories(LISTS)
+
+        if not categories:
+
+            st.warning(
+                "Aucune liste de mots disponible."
+            )
+
+        else:
+
+            category_labels = [
+                category["label"]
+                for category in categories
+            ]
+
+            selected_category_label = st.selectbox(
+                "Catégorie",
+                category_labels,
+            )
+
+            category = next(
+                item
+                for item in categories
+                if item["label"]
+                == selected_category_label
+            )
+
+            files = category["files"]
+
+            file_labels = [
+                path.stem
+                for path in files
+            ]
+
+            selected_file_label = st.selectbox(
+                "Liste",
+                file_labels,
+            )
+
+            selected_path = files[
+                file_labels.index(
+                    selected_file_label
+                )
+            ]
+
+            selection_mode = st.radio(
+                "Quantité",
+                [
+                    "Toute la liste",
+                    "Sélection aléatoire",
+                ],
+                horizontal=True,
+            )
+
+            if selection_mode == "Sélection aléatoire":
+
+                n = st.number_input(
+                    "Nombre de mots",
+                    1,
+                    1000,
+                    30,
+                )
+
+                seed = st.number_input(
+                    "Seed (0 = aléatoire)",
+                    0,
+                    999999,
+                    0,
+                    key="list_seed",
+                )
+
+            if st.button(
+                "Charger la liste",
+                type="primary",
+            ):
+
+                draws = load_file(
+                    selected_path
+                )
+
+                if selection_mode == "Toute la liste":
+
+                    selected_draws = draws
+                    selected_n = None
+                    selected_seed = None
+
+                else:
+
+                    selected_draws = sample_draws(
+                        draws,
+                        min(n, len(draws)),
+                        None if seed == 0 else seed,
+                    )
+
+                    selected_n = len(
+                        selected_draws
+                    )
+
+                    selected_seed = (
+                        None
+                        if seed == 0
+                        else seed
+                    )
+
+                st.session_state.draws = (
+                    selected_draws
+                )
+
+                relative = str(
+                    selected_path.relative_to(
+                        LISTS
+                    )
+                )
+
+                st.session_state.source_info = (
+                    relative
+                )
+
+                st.session_state.filename_info = {
+                    "source": "Liste",
+                    "file": relative,
+                    "mode": selection_mode,
+                    "n": selected_n,
+                    "seed": selected_seed,
+                }
+
+    # --------------------------------------------------------
+    # RÉVISION ALÉATOIRE INTELLIGENTE
+    # --------------------------------------------------------
+
+    else:
+
+        st.caption(
+            "Compose une séance à partir de plusieurs "
+            "familles de mots. Les mots prioritaires "
+            "reviennent plus souvent."
+        )
 
         n = st.number_input(
-            "Nombre de tirages",
+            "Nombre de mots",
             1,
             1000,
-            200,
+            30,
+            key="revision_n",
         )
+
+        st.markdown("##### Sources principales")
+
+        c1, c2, c3 = st.columns(3)
+
+        include_standard = c1.checkbox(
+            "Listes standards",
+            True,
+        )
+
+        include_priority = c2.checkbox(
+            "Prioritaires",
+            True,
+            help=(
+                "Contient notamment L_inratable. "
+                "Ces mots ont davantage de chances "
+                "d'être sélectionnés."
+            ),
+        )
+
+        include_frequent = c3.checkbox(
+            "Socle fréquent",
+            True,
+            help=(
+                "Mots très fréquents à revoir "
+                "régulièrement sans qu'ils dominent "
+                "la séance."
+            ),
+        )
+
+        st.markdown("##### Sources complémentaires")
+
+        c4, c5, c6 = st.columns(3)
+
+        include_entries = c4.checkbox(
+            "Entrées",
+            False,
+        )
+
+        include_thematic = c5.checkbox(
+            "Thématiques",
+            False,
+        )
+
+        include_old = c6.checkbox(
+            "Anciennes listes",
+            False,
+        )
+
+        with st.expander(
+            "⚙️ Pondération"
+        ):
+
+            st.caption(
+                "Plus le poids est élevé, plus les mots "
+                "de cette famille ont de chances "
+                "d'apparaître."
+            )
+
+            standard_weight = st.slider(
+                "Listes standards",
+                1,
+                10,
+                1,
+                key="standard_weight",
+            )
+
+            priority_weight = st.slider(
+                "Prioritaires",
+                1,
+                10,
+                4,
+                key="priority_weight",
+            )
+
+            frequent_weight = st.slider(
+                "Socle fréquent",
+                1,
+                10,
+                1,
+                key="frequent_weight",
+            )
 
         seed = st.number_input(
             "Seed (0 = aléatoire)",
             0,
             999999,
             0,
+            key="revision_seed",
         )
 
-    if (
-        st.button(
-            "Charger la liste",
+        if st.button(
+            "Générer la révision",
             type="primary",
-        )
-        and files
-    ):
+        ):
 
-        path = files[
-            rel.index(selected)
+            if not any(
+                [
+                    include_standard,
+                    include_priority,
+                    include_frequent,
+                    include_entries,
+                    include_thematic,
+                    include_old,
+                ]
+            ):
+
+                st.warning(
+                    "Sélectionne au moins une source."
+                )
+
+            else:
+
+                draws = weighted_revision(
+                    LISTS,
+                    n,
+                    None if seed == 0 else seed,
+                    include_standard=include_standard,
+                    include_priority=include_priority,
+                    include_frequent=include_frequent,
+                    include_entries=include_entries,
+                    include_thematic=include_thematic,
+                    include_old=include_old,
+                    priority_weight=priority_weight,
+                    standard_weight=standard_weight,
+                    frequent_weight=frequent_weight,
+                )
+
+                st.session_state.draws = draws
+
+                st.session_state.source_info = (
+                    "Révision aléatoire"
+                )
+
+                st.session_state.filename_info = {
+                    "source": "Revision",
+                    "n": len(draws),
+                    "seed": (
+                        None
+                        if seed == 0
+                        else seed
+                    ),
+                }
+
+# ============================================================
+# TIRAGES ENREGISTRÉS
+# ============================================================
+
+elif source == "🎯 Tirages":
+
+    files = draw_files(LISTS)
+
+    if not files:
+
+        st.warning(
+            "Aucun fichier disponible dans "
+            "data/listes/Tirages."
+        )
+
+    else:
+
+        labels = [
+            path.stem
+            for path in files
         ]
 
-        is_rajouts = (
-            source == "➕ Rajouts"
+        selected_label = st.selectbox(
+            "Fichier de tirages",
+            labels,
         )
 
-        draws = load_file(
-            path,
-            rajouts=is_rajouts,
+        selected_path = files[
+            labels.index(selected_label)
+        ]
+
+        selection_mode = st.radio(
+            "Quantité",
+            [
+                "Tous les tirages",
+                "Sélection aléatoire",
+            ],
+            horizontal=True,
         )
 
-        if selection_mode == "Toute la liste":
+        if selection_mode == "Sélection aléatoire":
 
-            st.session_state.draws = draws
-
-            selected_n = None
-            selected_seed = None
-
-        else:
-
-            st.session_state.draws = sample_draws(
-                draws,
-                min(n, len(draws)),
-                None if seed == 0 else seed,
+            n = st.number_input(
+                "Nombre de tirages",
+                1,
+                1000,
+                30,
+                key="draw_file_n",
             )
 
-            # On stocke le nombre réellement extrait,
-            # notamment si la liste contient moins
-            # d'éléments que demandé.
-            selected_n = min(
-                n,
-                len(draws),
+            seed = st.number_input(
+                "Seed (0 = aléatoire)",
+                0,
+                999999,
+                0,
+                key="draw_file_seed",
             )
 
-            selected_seed = (
-                None
-                if seed == 0
-                else seed
+        if st.button(
+            "Charger les tirages",
+            type="primary",
+        ):
+
+            draws = load_file(
+                selected_path
             )
 
-        st.session_state.source_info = selected
+            if selection_mode == "Tous les tirages":
 
-        st.session_state.filename_info = {
-            "source": (
-                "Rajouts"
-                if is_rajouts
-                else "Liste"
-            ),
-            "file": selected,
-            "mode": selection_mode,
-            "n": selected_n,
-            "seed": selected_seed,
-        }
+                selected_draws = draws
+                selected_n = None
+                selected_seed = None
 
+            else:
+
+                selected_draws = sample_draws(
+                    draws,
+                    min(n, len(draws)),
+                    None if seed == 0 else seed,
+                )
+
+                selected_n = len(
+                    selected_draws
+                )
+
+                selected_seed = (
+                    None
+                    if seed == 0
+                    else seed
+                )
+
+            st.session_state.draws = (
+                selected_draws
+            )
+
+            relative = str(
+                selected_path.relative_to(
+                    LISTS
+                )
+            )
+
+            st.session_state.source_info = (
+                relative
+            )
+
+            st.session_state.filename_info = {
+                "source": "Tirages",
+                "file": relative,
+                "mode": selection_mode,
+                "n": selected_n,
+                "seed": selected_seed,
+            }
+
+# ============================================================
+# RAJOUTS
+# ============================================================
+
+elif source == "➕ Rajouts":
+
+    files = rajouts_files(LISTS)
+
+    if not files:
+
+        st.warning(
+            "Aucun fichier disponible dans "
+            "data/listes/Rajouts."
+        )
+
+    else:
+
+        labels = [
+            path.stem
+            for path in files
+        ]
+
+        selected_label = st.selectbox(
+            "Fichier",
+            labels,
+        )
+
+        selected_path = files[
+            labels.index(selected_label)
+        ]
+
+        selection_mode = st.radio(
+            "Mode de sélection",
+            [
+                "Toute la liste",
+                "Sélection aléatoire",
+            ],
+            horizontal=True,
+        )
+
+        if selection_mode == "Sélection aléatoire":
+
+            n = st.number_input(
+                "Nombre de tirages",
+                1,
+                1000,
+                200,
+                key="rajouts_n",
+            )
+
+            seed = st.number_input(
+                "Seed (0 = aléatoire)",
+                0,
+                999999,
+                0,
+                key="rajouts_seed",
+            )
+
+        if st.button(
+            "Charger les rajouts",
+            type="primary",
+        ):
+
+            draws = load_file(
+                selected_path,
+                rajouts=True,
+            )
+
+            if selection_mode == "Toute la liste":
+
+                selected_draws = draws
+                selected_n = None
+                selected_seed = None
+
+            else:
+
+                selected_draws = sample_draws(
+                    draws,
+                    min(n, len(draws)),
+                    None if seed == 0 else seed,
+                )
+
+                selected_n = len(
+                    selected_draws
+                )
+
+                selected_seed = (
+                    None
+                    if seed == 0
+                    else seed
+                )
+
+            st.session_state.draws = (
+                selected_draws
+            )
+
+            relative = str(
+                selected_path.relative_to(
+                    LISTS
+                )
+            )
+
+            st.session_state.source_info = (
+                relative
+            )
+
+            st.session_state.filename_info = {
+                "source": "Rajouts",
+                "file": relative,
+                "mode": selection_mode,
+                "n": selected_n,
+                "seed": selected_seed,
+            }
 
 # ============================================================
 # ALÉATOIRE
 # ============================================================
 
-else:
+elif source == "🎲 Aléatoire":
 
     c1, c2, c3 = st.columns(3)
 
