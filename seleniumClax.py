@@ -25,7 +25,7 @@ listes_path = dir_path + "/listes/"
 listes_standards_path = dir_path + "/listes/Listes standards/"
 mots_dissimules_path = dir_path + "/listes/Mots dissimulés/"
 
-filepath_part = listes_standards_path + "L97.txt"
+filepath_part = listes_standards_path + "L98.txt"
 #tirages = open(filepath, "r").read()
 
 def get_json_from_dcdl_laxou(input_text):

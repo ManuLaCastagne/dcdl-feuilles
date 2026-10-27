@@ -184,7 +184,6 @@ def draw_files(root: Path):
         ),
     )
 
-
 def rajouts_files(root: Path):
     return files_in_directory(
         root,
