@@ -1140,7 +1140,7 @@
         "https://data.over-blog-kiwi.com/2/97/33/61/20261012/ob_c5edaf_match-n-7.txt",
         "https://data.over-blog-kiwi.com/2/97/33/61/20261012/ob_904085_finale.txt"
       ]
-    },    
+    },
     "https://clubdcdl.over-blog.com/2026/10/douai-2026.html": {
       "type": "tournament",
       "title": "Douai 2026 : Le triplé pour Arnaud.",
@@ -1314,6 +1314,19 @@
         "https://data.over-blog-kiwi.com/2/97/33/61/20261002/ob_db3985_match-n-5.txt",
         "https://data.over-blog-kiwi.com/2/97/33/61/20261002/ob_0a8b24_match-n-6.txt",
         "https://data.over-blog-kiwi.com/2/97/33/61/20261002/ob_3531e3_match-n-7.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2026/10/marseille-2026.html": {
+      "type": "tournament",
+      "title": "Marseille 2026 : Denis à bon port.",
+      "year": 2026,
+      "file": "data/tournois/2026/marseille.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20261026/ob_69c1dd_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20261026/ob_b2fc52_huitiemes.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20261026/ob_80d171_quarts.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20261026/ob_90283f_demies.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20261026/ob_7da411_finales.txt"
       ]
     }
   }
