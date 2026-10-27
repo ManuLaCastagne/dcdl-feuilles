@@ -465,7 +465,7 @@ elif source == "📚 Liste":
                     "Nombre de mots",
                     1,
                     1000,
-                    30,
+                    100,
                 )
 
                 seed = st.number_input(
@@ -547,7 +547,7 @@ elif source == "📚 Liste":
             "Nombre de mots",
             1,
             1000,
-            30,
+            100,
             key="revision_n",
         )
 
@@ -740,7 +740,7 @@ elif source == "🎯 Tirages":
                 "Nombre de tirages",
                 1,
                 1000,
-                30,
+                300,
                 key="draw_file_n",
             )
 

@@ -15,6 +15,7 @@ FREQUENT_DIR = "Socle fréquent"
 THEMATIC_DIR = "Listes thématiques"
 ENTRIES_DIR = "Entrées"
 OLD_DIR = "Anciennes listes"
+HIDDEN_WORDS_DIR = "Mots dissimulés"
 DRAWS_DIR = "Tirages"
 RAJOUTS_DIR = "Rajouts"
 
@@ -149,12 +150,38 @@ def word_categories(root: Path):
 
 def draw_files(root: Path):
     """
-    Fichiers contenant des tirages déjà constitués.
-    Ils peuvent contenir des lettres ET des chiffres.
+    Retourne tous les fichiers contenant des tirages
+    déjà constitués.
+
+    Cela comprend :
+    - Tirages
+    - Mots dissimulés
+
+    Les mots dissimulés sont déjà transformés en tirages
+    de 10 lettres avec lettres parasites : ils doivent donc
+    être utilisés tels quels et ne pas être remélangés.
     """
-    return files_in_directory(
-        root,
-        DRAWS_DIR,
+    files = []
+
+    files.extend(
+        files_in_directory(
+            root,
+            DRAWS_DIR,
+        )
+    )
+
+    files.extend(
+        files_in_directory(
+            root,
+            HIDDEN_WORDS_DIR,
+        )
+    )
+
+    return sorted(
+        files,
+        key=lambda path: natural_key(
+            str(path.relative_to(root))
+        ),
     )
 
 
