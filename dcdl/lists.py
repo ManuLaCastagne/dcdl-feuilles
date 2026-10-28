@@ -352,13 +352,15 @@ class Addition:
 
 def parse_additions_file(path: Path):
     """
-    Lit un fichier de rajouts au format :
+    Formats reconnus notamment :
 
         GITANE + A = ANTIÂGE
-        FADÉES + I = DÉFAISÉ
+        FOUINANTE (x) = NATOUFIEN
+        DURATION (x) = TANDOURI
 
-    Retourne une liste d'Addition.
+    Les espaces et la casse de X sont tolérés.
     """
+
     text = Path(path).read_text(
         encoding="utf-8",
         errors="ignore",
@@ -372,24 +374,47 @@ def parse_additions_file(path: Path):
         if not line:
             continue
 
+        # ----------------------------------------------------
+        # CAS 1 : rajout classique
+        # GITANE + A = ANTIÂGE
+        # ----------------------------------------------------
+
         match = re.match(
-            r"^\s*(.+?)\s*\+\s*(.+?)\s*=\s*(.+?)\s*$",
+            r"^\s*(.*?)\s*\+\s*([^=]+?)\s*=\s*(.*?)\s*$",
             line,
         )
 
-        if not match:
+        if match:
+            additions.append(
+                Addition(
+                    base=match.group(1).strip().upper(),
+                    letter=match.group(2).strip().upper(),
+                    answer=match.group(3).strip().upper(),
+                )
+            )
             continue
 
-        additions.append(
-            Addition(
-                base=match.group(1).strip().upper(),
-                letter=match.group(2).strip().upper(),
-                answer=match.group(3).strip().upper(),
-            )
+        # ----------------------------------------------------
+        # CAS 2 : notation (x)
+        # FOUINANTE (x) = NATOUFIEN
+        # ----------------------------------------------------
+
+        match = re.match(
+            r"^\s*(.*?)\s*\(\s*[xX]\s*\)\s*=\s*(.*?)\s*$",
+            line,
         )
 
-    return additions
+        if match:
+            additions.append(
+                Addition(
+                    base=match.group(1).strip().upper(),
+                    letter="(X)",
+                    answer=match.group(2).strip().upper(),
+                )
+            )
+            continue
 
+    return additions
 
 def addition_categories(root: Path):
     """
