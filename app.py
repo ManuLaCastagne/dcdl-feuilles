@@ -12,8 +12,11 @@ from dcdl.lists import (
     sample_draws,
     word_categories,
     draw_files,
-    rajouts_files,
     weighted_revision,
+    addition_categories,
+    parse_additions_file,
+    sample_additions,
+    weighted_additions_revision,
 )
 from dcdl.tournaments import (
     tournament_years,
@@ -108,7 +111,7 @@ def build_filename():
     # --------------------------------------------------------
     # LISTE / RAJOUTS
     # --------------------------------------------------------
-    if source_type in ("Liste", "Rajouts"):
+    if source_type in ("Liste"):
         selected_file = info.get("file", "liste")
 
         # On retire le .txt
@@ -224,6 +227,15 @@ if "source_info" not in st.session_state:
 if "filename_info" not in st.session_state:
     st.session_state.filename_info = {}
 
+# ============================================================
+# SESSION RAJOUTS
+# ============================================================
+
+if "additions_session" not in st.session_state:
+    st.session_state.additions_session = []
+
+if "additions_answers" not in st.session_state:
+    st.session_state.additions_answers = False
 
 # ============================================================
 # OPTIONS DE LA FEUILLE
@@ -808,118 +820,279 @@ elif source == "🎯 Tirages":
             }
 
 # ============================================================
-# RAJOUTS
+# RAJOUTS — RÉVISION DE MASSE
 # ============================================================
 
 elif source == "➕ Rajouts":
 
-    files = rajouts_files(LISTS)
+    st.subheader("➕ Révision des rajouts")
 
-    if not files:
+    st.caption(
+        "Révise une série complète d'un coup, "
+        "puis affiche toutes les réponses lorsque tu veux vérifier."
+    )
 
-        st.warning(
-            "Aucun fichier disponible dans "
-            "data/listes/Rajouts."
+    revision_mode = st.radio(
+        "Mode",
+        [
+            "Révision aléatoire",
+            "Liste précise",
+        ],
+        horizontal=True,
+    )
+
+    # --------------------------------------------------------
+    # RÉVISION ALÉATOIRE
+    # --------------------------------------------------------
+
+    if revision_mode == "Révision aléatoire":
+
+        c1, c2 = st.columns(2)
+
+        n = c1.number_input(
+            "Nombre de rajouts",
+            min_value=1,
+            max_value=1000,
+            value=100,
+            step=10,
+            key="additions_random_n",
         )
+
+        priority_weight = c2.slider(
+            "Poids des prioritaires",
+            min_value=1,
+            max_value=10,
+            value=4,
+            key="additions_priority_weight",
+            help=(
+                "Un rajout prioritaire a davantage "
+                "de chances d'apparaître dans la série."
+            ),
+        )
+
+        seed = st.number_input(
+            "Seed (0 = aléatoire)",
+            min_value=0,
+            max_value=999999,
+            value=0,
+            key="additions_random_seed",
+        )
+
+        if st.button(
+            "🎲 Générer les rajouts",
+            type="primary",
+        ):
+
+            additions = weighted_additions_revision(
+                LISTS,
+                n=int(n),
+                seed=(
+                    None
+                    if seed == 0
+                    else int(seed)
+                ),
+                priority_weight=int(
+                    priority_weight
+                ),
+            )
+
+            st.session_state.additions_session = (
+                additions
+            )
+
+            st.session_state.additions_answers = (
+                False
+            )
+
+    # --------------------------------------------------------
+    # LISTE PRÉCISE
+    # --------------------------------------------------------
 
     else:
 
-        labels = [
-            path.stem
-            for path in files
-        ]
-
-        selected_label = st.selectbox(
-            "Fichier",
-            labels,
+        categories = addition_categories(
+            LISTS
         )
 
-        selected_path = files[
-            labels.index(selected_label)
-        ]
+        if not categories:
 
-        selection_mode = st.radio(
-            "Mode de sélection",
-            [
-                "Toute la liste",
-                "Sélection aléatoire",
-            ],
-            horizontal=True,
-        )
+            st.warning(
+                "Aucun fichier de rajouts trouvé dans "
+                "data/listes/Rajouts."
+            )
 
-        if selection_mode == "Sélection aléatoire":
+        else:
+
+            category_labels = [
+                category["label"]
+                for category in categories
+            ]
+
+            selected_category_label = st.selectbox(
+                "Catégorie",
+                category_labels,
+                key="addition_category",
+            )
+
+            category = next(
+                item
+                for item in categories
+                if item["label"]
+                == selected_category_label
+            )
+
+            files = category["files"]
+
+            file_labels = [
+                path.stem
+                for path in files
+            ]
+
+            selected_file_label = st.selectbox(
+                "Liste",
+                file_labels,
+                key="addition_file",
+            )
+
+            selected_path = files[
+                file_labels.index(
+                    selected_file_label
+                )
+            ]
 
             n = st.number_input(
-                "Nombre de tirages",
-                1,
-                1000,
-                200,
-                key="rajouts_n",
+                "Nombre de rajouts",
+                min_value=1,
+                max_value=1000,
+                value=100,
+                step=10,
+                key="additions_file_n",
             )
 
             seed = st.number_input(
                 "Seed (0 = aléatoire)",
-                0,
-                999999,
-                0,
-                key="rajouts_seed",
+                min_value=0,
+                max_value=999999,
+                value=0,
+                key="additions_file_seed",
             )
 
-        if st.button(
-            "Charger les rajouts",
-            type="primary",
+            if st.button(
+                "🎲 Générer les rajouts",
+                type="primary",
+            ):
+
+                additions = (
+                    parse_additions_file(
+                        selected_path
+                    )
+                )
+
+                additions = sample_additions(
+                    additions,
+                    n=int(n),
+                    seed=(
+                        None
+                        if seed == 0
+                        else int(seed)
+                    ),
+                )
+
+                st.session_state.additions_session = (
+                    additions
+                )
+
+                st.session_state.additions_answers = (
+                    False
+                )
+
+
+    # ========================================================
+    # AFFICHAGE DE LA SÉRIE
+    # ========================================================
+
+    additions = (
+        st.session_state.additions_session
+    )
+
+    if additions:
+
+        st.divider()
+
+        st.markdown(
+            f"### Série — {len(additions)} rajouts"
+        )
+
+        # ----------------------------------------------------
+        # BOUTON RÉPONSES
+        # ----------------------------------------------------
+
+        if not st.session_state.additions_answers:
+
+            if st.button(
+                "👁️ Afficher les réponses",
+                type="secondary",
+                use_container_width=True,
+            ):
+                st.session_state.additions_answers = True
+                st.rerun()
+
+        else:
+
+            if st.button(
+                "🙈 Masquer les réponses",
+                type="secondary",
+                use_container_width=True,
+            ):
+                st.session_state.additions_answers = False
+                st.rerun()
+
+
+        # ----------------------------------------------------
+        # GRILLE 4 COLONNES
+        # ----------------------------------------------------
+
+        columns = st.columns(4)
+
+        total = len(additions)
+
+        # Nombre de lignes nécessaires par colonne.
+        # 100 rajouts => 25 par colonne.
+        per_column = (
+            total + 3
+        ) // 4
+
+        for index, addition in enumerate(
+            additions
         ):
 
-            draws = load_file(
-                selected_path,
-                rajouts=True,
+            column_index = min(
+                index // per_column,
+                3,
             )
 
-            if selection_mode == "Toute la liste":
+            question = (
+                f"{index + 1}. "
+                f"{addition.base} "
+                f"+ {addition.letter}"
+            )
 
-                selected_draws = draws
-                selected_n = None
-                selected_seed = None
+            if st.session_state.additions_answers:
+
+                text = (
+                    f"{question} "
+                    f"→ **{addition.answer}**"
+                )
 
             else:
 
-                selected_draws = sample_draws(
-                    draws,
-                    min(n, len(draws)),
-                    None if seed == 0 else seed,
+                text = question
+
+            with columns[column_index]:
+
+                st.markdown(
+                    text
                 )
-
-                selected_n = len(
-                    selected_draws
-                )
-
-                selected_seed = (
-                    None
-                    if seed == 0
-                    else seed
-                )
-
-            st.session_state.draws = (
-                selected_draws
-            )
-
-            relative = str(
-                selected_path.relative_to(
-                    LISTS
-                )
-            )
-
-            st.session_state.source_info = (
-                relative
-            )
-
-            st.session_state.filename_info = {
-                "source": "Rajouts",
-                "file": relative,
-                "mode": selection_mode,
-                "n": selected_n,
-                "seed": selected_seed,
-            }
 
 # ============================================================
 # ALÉATOIRE
@@ -1009,7 +1182,7 @@ elif source == "🎲 Aléatoire":
 
 draws = st.session_state.draws
 
-if draws:
+if draws and source != "➕ Rajouts":
 
     st.divider()
 
@@ -1157,11 +1330,12 @@ if draws:
     )
 
 
+
 # ============================================================
 # AUCUN TIRAGE
 # ============================================================
 
-else:
+elif source != "➕ Rajouts":
 
     st.info(
         "Choisis une source et charge des tirages "

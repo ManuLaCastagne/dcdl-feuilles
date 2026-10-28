@@ -335,3 +335,252 @@ def weighted_revision(
     rng.shuffle(selected)
 
     return selected
+
+# ============================================================
+# RAJOUTS — RÉVISION DE MASSE
+# ============================================================
+
+from dataclasses import dataclass
+
+
+@dataclass
+class Addition:
+    base: str
+    letter: str
+    answer: str
+
+
+def parse_additions_file(path: Path):
+    """
+    Lit un fichier de rajouts au format :
+
+        GITANE + A = ANTIÂGE
+        FADÉES + I = DÉFAISÉ
+
+    Retourne une liste d'Addition.
+    """
+    text = Path(path).read_text(
+        encoding="utf-8",
+        errors="ignore",
+    )
+
+    additions = []
+
+    for line in text.splitlines():
+        line = line.strip()
+
+        if not line:
+            continue
+
+        match = re.match(
+            r"^\s*(.+?)\s*\+\s*(.+?)\s*=\s*(.+?)\s*$",
+            line,
+        )
+
+        if not match:
+            continue
+
+        additions.append(
+            Addition(
+                base=match.group(1).strip().upper(),
+                letter=match.group(2).strip().upper(),
+                answer=match.group(3).strip().upper(),
+            )
+        )
+
+    return additions
+
+
+def addition_categories(root: Path):
+    """
+    Recherche les catégories présentes dans data/listes/Rajouts.
+
+    Exemple :
+        Rajouts/
+            Standards/
+            Prioritaires/
+
+    Si des fichiers .txt sont directement dans Rajouts/,
+    ils apparaissent dans une catégorie "Rajouts".
+    """
+    rajouts_root = Path(root) / RAJOUTS_DIR
+
+    if not rajouts_root.exists():
+        return []
+
+    categories = []
+
+    # Fichiers directement dans Rajouts/
+    root_files = sorted(
+        [
+            path
+            for path in rajouts_root.glob("*.txt")
+            if path.is_file()
+        ],
+        key=lambda path: natural_key(path.name),
+    )
+
+    if root_files:
+        categories.append(
+            {
+                "label": "Rajouts",
+                "directory": rajouts_root,
+                "files": root_files,
+                "priority": False,
+            }
+        )
+
+    # Sous-répertoires
+    directories = sorted(
+        [
+            path
+            for path in rajouts_root.iterdir()
+            if path.is_dir()
+        ],
+        key=lambda path: natural_key(path.name),
+    )
+
+    for directory in directories:
+
+        files = sorted(
+            [
+                path
+                for path in directory.rglob("*.txt")
+                if path.is_file()
+            ],
+            key=lambda path: natural_key(path.name),
+        )
+
+        if not files:
+            continue
+
+        is_priority = (
+            "prior" in directory.name.lower()
+            or "inratable" in directory.name.lower()
+        )
+
+        categories.append(
+            {
+                "label": directory.name,
+                "directory": directory,
+                "files": files,
+                "priority": is_priority,
+            }
+        )
+
+    return categories
+
+
+def sample_additions(
+    additions,
+    n=100,
+    seed=None,
+):
+    """
+    Sélection aléatoire simple sans doublon.
+    """
+    rng = random.Random(seed)
+
+    if n >= len(additions):
+        result = additions.copy()
+        rng.shuffle(result)
+        return result
+
+    return rng.sample(
+        additions,
+        n,
+    )
+
+
+def weighted_additions_revision(
+    root: Path,
+    n=100,
+    seed=None,
+    priority_weight=4,
+):
+    """
+    Construit une séance de rajouts à partir de toutes
+    les catégories.
+
+    Les dossiers dont le nom contient 'prior' ou
+    'inratable' ont un poids supérieur.
+
+    Un même rajout n'apparaît qu'une fois dans une séance.
+    """
+    rng = random.Random(seed)
+
+    categories = addition_categories(root)
+
+    weighted = {}
+
+    for category in categories:
+
+        weight = (
+            priority_weight
+            if category["priority"]
+            else 1
+        )
+
+        for path in category["files"]:
+
+            additions = parse_additions_file(path)
+
+            for addition in additions:
+
+                key = (
+                    addition.base,
+                    addition.letter,
+                    addition.answer,
+                )
+
+                if key not in weighted:
+                    weighted[key] = {
+                        "addition": addition,
+                        "weight": 0,
+                    }
+
+                weighted[key]["weight"] += weight
+
+    pool = list(weighted.values())
+
+    if not pool:
+        return []
+
+    wanted = min(
+        int(n),
+        len(pool),
+    )
+
+    selected = []
+
+    # Sélection pondérée sans remise
+    for _ in range(wanted):
+
+        total_weight = sum(
+            item["weight"]
+            for item in pool
+        )
+
+        position = rng.uniform(
+            0,
+            total_weight,
+        )
+
+        cumulative = 0
+
+        for index, item in enumerate(pool):
+
+            cumulative += item["weight"]
+
+            if position <= cumulative:
+
+                selected.append(
+                    pool.pop(index)["addition"]
+                )
+
+                break
+
+    # On remélange la séance finale
+    rng.shuffle(selected)
+
+    return selected
