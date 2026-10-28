@@ -1071,11 +1071,17 @@ elif source == "➕ Rajouts":
                 3,
             )
 
-            question = (
-                f"{index + 1}. "
-                f"{addition.base} "
-                f"+ {addition.letter}"
-            )
+            if addition.letter == "(X)":
+                question = (
+                    f"{index + 1}. "
+                    f"{addition.base} (X)"
+                )
+            else:
+                question = (
+                    f"{index + 1}. "
+                    f"{addition.base} "
+                    f"+ {addition.letter}"
+                )
 
             if st.session_state.additions_answers:
 
