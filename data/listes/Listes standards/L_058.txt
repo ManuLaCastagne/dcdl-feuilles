@@ -61,7 +61,7 @@ cramique
 cotylédon
 coquelle
 concetti
-clicheur**
+clicheur
 coloured
 chloasma
 chamaerops
@@ -131,7 +131,7 @@ diatomée
 fucacée
 fucus
 goémon
-goémonièr(e)
+goémonière
 laminaire
 microalgue
 navicule
@@ -161,7 +161,7 @@ fricatif
 fricative
 gélivité
 rendzine
-turriculé**
+turriculé
 estacade
 dessévage
 affouager
@@ -178,8 +178,8 @@ surtseyen
 remplage
 invaginer
 vaginite
-cagoulard**
-ségrég(u)er
+cagoulard
+ségréguer
 ultravide
 couvige
 postcure
@@ -189,16 +189,16 @@ marotique
 kourgane
 estivage
 nuraghe
-melliflu**
+melliflu
 sévrouga
 sévruga
 hirudine
 tom-pouce
 anthèse
-mildiousé**
+mildiousé
 eupatoire
 démodex
-ordinant(s)
+ordinants
 comandant
 cicutine
 pervibrer
