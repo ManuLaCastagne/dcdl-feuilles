@@ -8,3 +8,6 @@ ourliens + p = répulsion
 romance + n = maçonner
 économie + t = émoticone
 parian + h = piranha
+adorer + s = droséra
+comètes + s = comtesse
+salives + e = slavisée

@@ -1,4 +1,6 @@
+reubeues + x = urbexeuse
 raisonner + i = irraisonné
+fourchue + l = chou-fleur
 atténuer + m = autrement
 terrasse + n = sans-terre
 assiégée + b = beigeasse
