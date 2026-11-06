@@ -2,5 +2,10 @@
 __pycache__/
 *.pyc
 .DS_Store
+.cache_dcdl_toulouse/
+tirages_toulouse.csv
+tirages_toulouse.rapport.json
+importer_tirages_toulouse.py
+recuperer_tirages_toulouse.py
 .streamlit/secrets.toml
 .agents/
