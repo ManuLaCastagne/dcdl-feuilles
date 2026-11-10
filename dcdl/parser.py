@@ -20,24 +20,22 @@ def parse_line(line: str) -> Draw | None:
     if not original:
         return None
 
-    line = _strip_numbering(original).replace("\xa0", " ").strip()
+    brut = original.replace("\xa0", " ")
+    compte = r"(\d+(?:(?:\s+|\s*-\s*)\d+){5})\s*[/=:\-]\s*(\d{3})"
 
-    # Formats observés dans les fichiers de tournois :
-    # 1 10 8 7 9 25 / 203
-    # 1 10 8 7 9 25 - 203
-    # 1 10 8 7 9 25 = 203
-    # et, pour certains exports historiques, sans séparateur avant la cible.
-    m = re.fullmatch(
-        r"(\d+(?:\s+\d+){5})\s*(?:/|=|:|-)\s*(\d{3})\s*",
-        line,
-    )
+    # Essaie d'abord la ligne brute : « 7- » peut être la première plaque.
+    m = re.fullmatch(compte, brut)
+    line = _strip_numbering(brut)
+
     if not m:
-        m = re.fullmatch(r"(\d+(?:\s+\d+){5})\s+(\d{3})\s*", line)
+        m = re.fullmatch(compte, line)
+    if not m:
+        # Anciens fichiers avec un espace entre la dernière plaque et la cible.
+        m = re.fullmatch(r"(\d+(?:\s+\d+){5})\s+(\d{3})", line)
     if m:
-        return Draw(original, DrawType.NUMBERS, m.group(1).split(), int(m.group(2)))
+        plaques = re.findall(r"\d+", m.group(1))
+        return Draw(original, DrawType.NUMBERS, plaques, int(m.group(2)))
 
-    # Une ligne de lettres de tournoi doit correspondre à un tirage, pas à une phrase.
-    # On nettoie les annotations usuelles, puis on exige 9 à 11 lettres.
     candidate = line.split(" = ", 1)[-1] if " = " in line else line
     letters = normalize_letters(candidate)
     if 9 <= len(letters) <= 11:

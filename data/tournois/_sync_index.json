@@ -1343,22 +1343,6 @@
         "https://data.over-blog-kiwi.com/2/97/33/61/20261028/ob_bfbda0_finale.txt"
       ]
     },
-    "https://clubdcdl.over-blog.com/2026/11/championnat-d-auvergne-2026.html": {
-      "type": "tournament",
-      "title": "Championnat d'Auvergne 2026 : Olivier sans trembler",
-      "year": 2026,
-      "file": "data/tournois/2026/championnat-d-auvergne.txt",
-      "txt_links": [
-        "https://data.over-blog-kiwi.com/2/97/33/61/20261110/ob_ed7877_duplicate.txt",
-        "https://data.over-blog-kiwi.com/2/97/33/61/20261110/ob_3d5671_match1.txt",
-        "https://data.over-blog-kiwi.com/2/97/33/61/20261110/ob_26fcb5_match2.txt",
-        "https://data.over-blog-kiwi.com/2/97/33/61/20261110/ob_de129c_match3.txt",
-        "https://data.over-blog-kiwi.com/2/97/33/61/20261110/ob_8e9111_match4.txt",
-        "https://data.over-blog-kiwi.com/2/97/33/61/20261110/ob_1434cd_match5.txt",
-        "https://data.over-blog-kiwi.com/2/97/33/61/20261110/ob_a278d0_match6.txt",
-        "https://data.over-blog-kiwi.com/2/97/33/61/20261110/ob_eeffc8_match7.txt"
-      ]
-    },
     "https://clubdcdl.over-blog.com/2026/11/laxou-automne-2026.html": {
       "type": "no_txt",
       "title": "Laxou-Automne 2026 : et merci Maman !",
@@ -1375,6 +1359,22 @@
         "https://data.over-blog-kiwi.com/2/97/33/61/20261108/ob_72d46f_match-n-2.txt",
         "https://data.over-blog-kiwi.com/2/97/33/61/20261108/ob_60ba7f_match-n-3.txt",
         "https://data.over-blog-kiwi.com/2/97/33/61/20261108/ob_50bb25_match-n-4.txt"
+      ]
+    },
+    "https://clubdcdl.over-blog.com/2026/11/championnat-d-auvergne-2026.html": {
+      "type": "tournament",
+      "title": "Championnat d'Auvergne 2026 : Olivier sans trembler",
+      "year": 2026,
+      "file": "data/tournois/2026/championnat-d-auvergne.txt",
+      "txt_links": [
+        "https://data.over-blog-kiwi.com/2/97/33/61/20261110/ob_ed7877_duplicate.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20261110/ob_3d5671_match1.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20261110/ob_26fcb5_match2.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20261110/ob_de129c_match3.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20261110/ob_8e9111_match4.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20261110/ob_1434cd_match5.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20261110/ob_a278d0_match6.txt",
+        "https://data.over-blog-kiwi.com/2/97/33/61/20261110/ob_eeffc8_match7.txt"
       ]
     }
   }
