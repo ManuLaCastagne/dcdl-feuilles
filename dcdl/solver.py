@@ -58,26 +58,108 @@ def _draw_to_clax_line(draw: Draw) -> str:
 
 
 def _fetch_clax_json(input_text: str) -> dict:
+    import time
+
     from selenium.webdriver.common.by import By
     from selenium.webdriver.support.ui import WebDriverWait
     from selenium.webdriver.support import expected_conditions as EC
 
+    start = time.monotonic()
+
+    print("CLAX : démarrage Chromium...")
     driver = _build_driver()
+
     try:
+        print(
+            f"CLAX : Chromium démarré "
+            f"({time.monotonic() - start:.1f}s)"
+        )
+
         driver.get(CLAX_URL)
+
+        print(
+            f"CLAX : page chargée "
+            f"({time.monotonic() - start:.1f}s)"
+        )
+
         wait = WebDriverWait(driver, 30)
-        textarea = wait.until(EC.presence_of_element_located((By.XPATH, "//textarea")))
+
+        textarea = wait.until(
+            EC.visibility_of_element_located(
+                (By.TAG_NAME, "textarea")
+            )
+        )
+
+        print(
+            f"CLAX : textarea trouvée "
+            f"({time.monotonic() - start:.1f}s)"
+        )
+
         textarea.clear()
         textarea.send_keys(input_text)
-        button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[contains(.,'Calculer')]")))
-        button.click()
-        link = wait.until(EC.presence_of_element_located((By.XPATH, "//a[starts-with(@href,'data:application/json')]")))
-        href = link.get_attribute("href")
+
+        button = wait.until(
+            EC.element_to_be_clickable(
+                (
+                    By.XPATH,
+                    "//button[contains(normalize-space(.), 'Calculer')]",
+                )
+            )
+        )
+
+        print(
+            f"CLAX : lancement du calcul "
+            f"({time.monotonic() - start:.1f}s)"
+        )
+
+        driver.execute_script(
+            "arguments[0].click();",
+            button,
+        )
+
+        def json_link_ready(driver):
+            links = driver.find_elements(
+                By.XPATH,
+                "//a[starts-with(@href,'data:application/json')]",
+            )
+
+            for link in links:
+                href = link.get_attribute("href")
+
+                if href and "," in href:
+                    return href
+
+            return False
+
+        href = wait.until(json_link_ready)
+
+        print(
+            f"CLAX : résultat reçu "
+            f"({time.monotonic() - start:.1f}s)"
+        )
+
         payload = href.split(",", 1)[1]
-        return json.loads(urllib.parse.unquote(payload))
+
+        result = json.loads(
+            urllib.parse.unquote(payload)
+        )
+
+        print(
+            f"CLAX : terminé "
+            f"({time.monotonic() - start:.1f}s)"
+        )
+
+        return result
+
+    except Exception:
+        print("CLAX : ERREUR")
+        print("URL :", driver.current_url)
+        print("Titre :", driver.title)
+
+        raise
+
     finally:
         driver.quit()
-
 
 def _letters_result(payload: dict) -> tuple[str, int, str]:
     lengths = []
