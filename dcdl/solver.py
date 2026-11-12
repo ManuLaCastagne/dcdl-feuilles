@@ -82,7 +82,7 @@ def _fetch_clax_json(input_text: str) -> dict:
             f"({time.monotonic() - start:.1f}s)"
         )
 
-        wait = WebDriverWait(driver, 30)
+        wait = WebDriverWait(driver, 180)
 
         textarea = wait.until(
             EC.visibility_of_element_located(
