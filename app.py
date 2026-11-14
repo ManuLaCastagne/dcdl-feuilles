@@ -963,8 +963,8 @@ elif source == "➕ Rajouts":
             n = st.number_input(
                 "Nombre de rajouts",
                 min_value=1,
-                max_value=1000,
-                value=100,
+                max_value=100,
+                value=10,
                 step=10,
                 key="additions_file_n",
             )
